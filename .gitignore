@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+node_modules/
+qa-artifacts/
+.runtime/
+.openai/
+releases/
+*.tar.gz
