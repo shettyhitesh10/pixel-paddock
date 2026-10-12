@@ -1,0 +1,177 @@
+[
+  {
+    "sheet": "a",
+    "driverIds": [
+      "hamilton",
+      "norris",
+      "max_verstappen"
+    ],
+    "originalAsset": "dist/assets/art/drivers-a.webp",
+    "originalSHA256": "775315a62808897fb59ad63aea9c6cd743078a24f8f6b09dd539d83f462937b2",
+    "generatedSource": "/workspace/generated_images/exec-36b6f168-a266-419d-ba35-7fa04688bcab.png",
+    "retainedPNG": "assets-work/release5/helmets-a.png",
+    "output": "dist/assets/art/helmets-a.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "columns": 6,
+    "rows": 3,
+    "encoding": "WebP quality 95; no resizing, cropping or pixel editing.",
+    "inspection": "Visually inspected: six full-body helmeted poses per mapped driver; closed visors and distinctive colour palettes.",
+    "designStatus": "Original fan interpretation; not an exact 2026 helmet replica."
+  },
+  {
+    "sheet": "b",
+    "driverIds": [
+      "russell",
+      "leclerc",
+      "alonso"
+    ],
+    "originalAsset": "dist/assets/art/drivers-b.webp",
+    "originalSHA256": "6b2ecb625ecd4c5a4e6a5614ddbb78debe1e4d0ca9c5f8772e79ca40a582d949",
+    "generatedSource": "/workspace/generated_images/exec-6343578d-eafe-4b97-9313-15e32190ec72.png",
+    "retainedPNG": "assets-work/release5/helmets-b.png",
+    "output": "dist/assets/art/helmets-b.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "columns": 6,
+    "rows": 3,
+    "encoding": "WebP quality 95; no resizing, cropping or pixel editing.",
+    "inspection": "Visually inspected: six full-body helmeted poses per mapped driver; closed visors and distinctive colour palettes.",
+    "designStatus": "Original fan interpretation; not an exact 2026 helmet replica."
+  },
+  {
+    "sheet": "c",
+    "driverIds": [
+      "antonelli",
+      "piastri",
+      "sainz"
+    ],
+    "originalAsset": "dist/assets/art/drivers-c.webp",
+    "originalSHA256": "6f360479cff98f4d0e5b0efc1cb46307efcabc5a5dca571c59132130bb1fda41",
+    "generatedSource": "/workspace/generated_images/exec-8422df0a-72e9-45d9-b1a3-a00c36ec060f.png",
+    "retainedPNG": "assets-work/release5/helmets-c.png",
+    "output": "dist/assets/art/helmets-c.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "columns": 6,
+    "rows": 3,
+    "encoding": "WebP quality 95; no resizing, cropping or pixel editing.",
+    "inspection": "Visually inspected: six full-body helmeted poses per mapped driver; closed visors and distinctive colour palettes.",
+    "designStatus": "Original fan interpretation; not an exact 2026 helmet replica."
+  },
+  {
+    "sheet": "d",
+    "driverIds": [
+      "albon",
+      "gasly",
+      "ocon"
+    ],
+    "originalAsset": "dist/assets/art/drivers-d.webp",
+    "originalSHA256": "879bf741e1999692bad4b5e04437654a6c2ba2cfb988916d77be8a00c4c729f8",
+    "generatedSource": "/workspace/generated_images/exec-f852cb43-0f6d-4152-955d-48115b15f6ca.png",
+    "retainedPNG": "assets-work/release5/helmets-d.png",
+    "output": "dist/assets/art/helmets-d.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "columns": 6,
+    "rows": 3,
+    "encoding": "WebP quality 95; no resizing, cropping or pixel editing.",
+    "inspection": "Visually inspected: six full-body helmeted poses per mapped driver; closed visors and distinctive colour palettes.",
+    "designStatus": "Original fan interpretation; not an exact 2026 helmet replica."
+  },
+  {
+    "sheet": "e",
+    "driverIds": [
+      "bottas",
+      "perez",
+      "hulkenberg"
+    ],
+    "originalAsset": "dist/assets/art/drivers-e.webp",
+    "originalSHA256": "d9865a22ed2f09f758e22fe8bf483093a024b0ace2fa3d03214fd7947d5f2e1d",
+    "generatedSource": "/workspace/generated_images/exec-82855c52-54c7-4a22-9188-baabe6151f08.png",
+    "retainedPNG": "assets-work/release5/helmets-e.png",
+    "output": "dist/assets/art/helmets-e.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "columns": 6,
+    "rows": 3,
+    "encoding": "WebP quality 95; no resizing, cropping or pixel editing.",
+    "inspection": "Visually inspected: six full-body helmeted poses per mapped driver; closed visors and distinctive colour palettes.",
+    "designStatus": "Original fan interpretation; not an exact 2026 helmet replica."
+  },
+  {
+    "sheet": "f",
+    "driverIds": [
+      "hadjar",
+      "lawson",
+      "arvid_lindblad"
+    ],
+    "originalAsset": "dist/assets/art/drivers-f.webp",
+    "originalSHA256": "8138489334caf6e6b529a3d065ae7ed3f55109b1a846ced58880ea4cce7707af",
+    "generatedSource": "/workspace/generated_images/exec-10c3b968-5e2d-4741-ab7e-46baeb4e027e.png",
+    "retainedPNG": "assets-work/release5/helmets-f.png",
+    "output": "dist/assets/art/helmets-f.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "columns": 6,
+    "rows": 3,
+    "encoding": "WebP quality 95; no resizing, cropping or pixel editing.",
+    "inspection": "Visually inspected: six full-body helmeted poses per mapped driver; closed visors and distinctive colour palettes.",
+    "designStatus": "Original fan interpretation; not an exact 2026 helmet replica."
+  },
+  {
+    "sheet": "g",
+    "driverIds": [
+      "colapinto",
+      "bearman",
+      "bortoleto"
+    ],
+    "originalAsset": "dist/assets/art/drivers-g.webp",
+    "originalSHA256": "39e786f9ebcc0f0964b1ee0b1df74414f151825271ede6ff6658abc068d4a643",
+    "generatedSource": "/workspace/generated_images/exec-2e20e44d-5eed-418d-b36f-21f21cec0c48.png",
+    "retainedPNG": "assets-work/release5/helmets-g.png",
+    "output": "dist/assets/art/helmets-g.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "columns": 6,
+    "rows": 3,
+    "encoding": "WebP quality 95; no resizing, cropping or pixel editing.",
+    "inspection": "Visually inspected: six full-body helmeted poses per mapped driver; closed visors and distinctive colour palettes.",
+    "designStatus": "Original fan interpretation; not an exact 2026 helmet replica."
+  },
+  {
+    "sheet": "h",
+    "driverIds": [
+      "stroll",
+      "tsunoda"
+    ],
+    "originalAsset": "dist/assets/art/drivers-h.webp",
+    "originalSHA256": "de11d395afce84a43254bba4f3c2cecae8a7aefa50127a92e871e43fdd7721cb",
+    "generatedSource": "/workspace/generated_images/exec-499252a5-f3ad-481a-b5c4-24c1f0e55ffd.png",
+    "retainedPNG": "assets-work/release5/helmets-h.png",
+    "output": "dist/assets/art/helmets-h.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "columns": 6,
+    "rows": 3,
+    "encoding": "WebP quality 95; no resizing, cropping or pixel editing.",
+    "inspection": "Visually inspected: six full-body helmeted poses per mapped driver; closed visors and distinctive colour palettes.",
+    "designStatus": "Original fan interpretation; not an exact 2026 helmet replica."
+  }
+]

@@ -1,30 +1,51 @@
-# Pixel Paddock — release 4
+# Pixel Paddock — release 5 local POC
 
-Open `pixel-paddock-v4.html` directly in a browser. It embeds all artwork, the original pixel font, captured data and the build report; no server is needed. The `dist/` folder is the equivalent static website.
+A retro F1 companion with pixel character selection, team-colour garages, race timing screens and driver weekend dossiers.
 
-The UI follows a retro racing-game cabinet: detailed pixel character selection, colour-coded garages, a Singapore night circuit, timing screens and an original bitmap typeface. No driver photographs are used.
+## Open locally
 
-## Coverage
-
-- 22 current drivers and one former season entrant, 11 teams, 13 leadership roles: 47 profiles.
-- 36 animated pixel characters, six frames each; original team car illustrations.
-- 23 race files; Singapore race, qualifying and Sprint classifications.
-- Official post-Singapore championship snapshot checked 12 October 2026, 11 linked articles and 5 sourced public comments. Dates are retained per source.
-- Search, filters, favourites, private local notes, keyboard driver selection and reduced motion.
-
-## Validate and export
+The source works without a framework or dependency installation:
 
 ```sh
-node --check dist/app.js
-node scripts/check_retro.cjs
+python -m http.server 8000 --directory dist
+```
+
+Open http://localhost:8000 in your browser. To make a portable, fully embedded HTML:
+
+```sh
 python scripts/build_report.py
 python scripts/export_html.py
 ```
 
-The check suite exercises templates and event handlers in a simulated DOM. It does not verify browser layout, actual CSS animation playback or browser persistence. Chromium could not launch under this execution sandbox. Hosting and scheduling remain pending.
+Open `pixel-paddock-v5.html`. The approved prior `pixel-paddock-v4.html` remains available, and release 4 is preserved in Git history.
 
-## Data maintenance
+## Driver pages
 
-`refresh_data.py --community` fetches a separate review candidate into `research/refresh-candidate.json`. It never overwrites the reviewed snapshot. Review the session context, source timestamps, biographies and matching UI labels before integrating candidate data. Failed sources retain their previous records; unknown roster IDs and older championship rounds are rejected. The UI reload button reloads the saved file, not a live sports API.
+- Timing: Q1/Q2/Q3 laps, starting grid or pit-lane start, race/Sprint classification times, fastest lap and points.
+- Strategy: pit-entry laps, pit-lane duration, a derived stint timeline and sourced tyre compounds where verified.
+- Radio: available published excerpts and reported summaries, clearly labelled. Missing recordings stay missing.
+- AI story: source-linked subjective assessment, reported incidents/turning points and a critical comparison with the teammate.
 
-Current standalone: about 7.4 MB, including 14 embedded WebP assets. The source PNGs are retained separately in the workspace; see `research/artwork-v4-provenance.json`. Artwork compression preserves original dimensions and composition.
+All 22 current drivers have dossiers; the former season entrant is marked not entered for this event. There are 47 entity profiles in total.
+
+## Artwork retained
+
+`dist/helmet-artwork.js` selects six-frame helmeted fan interpretations for 23 drivers. `dist/artwork.js` and all original face sheets remain unchanged for future use. Principal characters retain their original art. Helmets are stylised interpretations, not exact reproductions of every current helmet edition.
+
+## Checks
+
+```sh
+node --check dist/app.js
+node scripts/check_retro.cjs
+python scripts/test_weekend_pipeline.py
+```
+
+Source, template, handler and offline ingestion checks pass. Real browser rendering, mobile overflow, actual CSS playback and browser persistence remain unverified because Chromium is blocked in the execution sandbox.
+
+## Data and future updates
+
+Official Singapore timing, starting-grid, fastest-lap and pit-stop records were checked on 12 October 2026. Each section keeps its own retrieval date; radio covers selected published material, not a complete archive.
+
+See [the data pipeline plan](docs/DATA_PIPELINE.md). `build_driver_weekends.py` already normalizes verified event facts into the frontend’s dossier format. `collect_openf1.py` prepares historical source candidates with pinned session keys and partial-failure handling; its live network path remains unverified in this sandbox. No autonomous fetcher, hosted backend, AI service or scheduled job is active in this POC.
+
+Original PNG artwork remains in the working asset archive. The current and legacy encoded assets are retained in source control; the source scripts do not regenerate AI images on their own.

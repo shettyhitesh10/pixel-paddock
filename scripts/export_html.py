@@ -18,6 +18,8 @@ def export():
     assets = {str(p.relative_to(DIST)): 'data:image/webp;base64,' + base64.b64encode(p.read_bytes()).decode() for p in (DIST / 'assets/art').glob('*.webp')}
     asset_script = 'window.PADDOCK_ASSET_URLS=' + json.dumps(assets, separators=(',', ':')) + ';'
     manifest = (DIST / 'artwork.js').read_text()
+    helmets = (DIST / 'helmet-artwork.js').read_text()
+    page = page.replace('<script src="helmet-artwork.js"></script>', '<script>' + helmets + '</script>')
     page = page.replace('<script src="artwork.js"></script>', '<script>' + asset_script + manifest + '</script>')
     script = (DIST / 'app.js').read_text()
     content = json.loads((DIST / 'data/content.json').read_text())
@@ -25,9 +27,9 @@ def export():
     report = json.dumps((DIST / 'progress.html').read_text().replace('href="index.html"', 'href="#" onclick="window.close();return false"'), ensure_ascii=False).replace('<', '\\u003c')
     report_script = '<script>const reportUrl=URL.createObjectURL(new Blob([' + report + '],{type:"text/html"}));document.querySelectorAll(\'a[href="progress.html"]\').forEach(a=>{a.href=reportUrl;a.target="_blank";a.rel="noopener";});</script>'
     page = page.replace('<script src="app.js"></script>', '<script>window.PIXEL_PADDOCK_BOOTSTRAP=' + embedded + ';</script><script>' + script.replace('</script', '<\\/script') + '</script>' + report_script)
-    for name in ['pixel-paddock.html', 'pixel-paddock-v4.html']:
+    for name in ['pixel-paddock.html', 'pixel-paddock-v5.html']:
         (ROOT / name).write_text(page)
-    print(json.dumps({'html': str(ROOT / 'pixel-paddock-v4.html'), 'bytes': len(page.encode()), 'embeddedSnapshot': True, 'embeddedArtworkAndFont': True}))
+    print(json.dumps({'html': str(ROOT / 'pixel-paddock-v5.html'), 'bytes': len(page.encode()), 'embeddedSnapshot': True, 'embeddedArtworkAndFont': True}))
 
 
 if __name__ == '__main__':

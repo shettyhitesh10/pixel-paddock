@@ -1,3 +1,7 @@
+# Future scheduled work (not active)
+
+The current brief is a local frontend POC stored in the user’s public GitHub repository. Preserve helmeted drivers and original face assets. Follow docs/DATA_PIPELINE.md; autonomous ingestion and server-generated stories are future work. Do not deploy or schedule merely because this file exists.
+
 # Scheduled improvement instructions
 
 This is the user's long-term Pixel Paddock F1 project. Preserve the original retro racing GAME interface: cobalt/navy instrument panels, yellow bitmap text, angular pixel borders, checkered details and original pixel artwork. The latest explicit user correction rejects actual photographs, white dashboard surfaces and modern non-pixel controls. Use the F1 Race / F1 Pole Position screen references in DESIGN_REFERENCES.md. Preserve all driver/team/principal pages, source attribution, vivid team palettes, detailed individual pixel faces, six-frame poses and signature labels. Never add photographs or randomize likenesses during refreshes. The latest user model preference is Astra. Do not claim that scheduled creation itself proves a run occurred.

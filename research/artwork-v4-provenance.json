@@ -1,0 +1,181 @@
+[
+  {
+    "asset": "drivers-a",
+    "source": "/workspace/generated_images/exec-f62e92d4-800c-4f93-a5df-8eb97fe538b1.png",
+    "output": "dist/assets/art/drivers-a.webp",
+    "people": [
+      "hamilton",
+      "norris",
+      "max_verstappen"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "drivers-b",
+    "source": "/workspace/generated_images/exec-e7ac02e6-c3a2-4769-8d20-f152723ff858.png",
+    "output": "dist/assets/art/drivers-b.webp",
+    "people": [
+      "russell",
+      "leclerc",
+      "alonso"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "drivers-c",
+    "source": "/workspace/generated_images/exec-107b66ff-924e-4ffa-995d-8077caf0981b.png",
+    "output": "dist/assets/art/drivers-c.webp",
+    "people": [
+      "antonelli",
+      "piastri",
+      "sainz"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "drivers-d",
+    "source": "/workspace/generated_images/exec-f48222e5-8351-4c2d-b95d-0c93212cf081.png",
+    "output": "dist/assets/art/drivers-d.webp",
+    "people": [
+      "albon",
+      "gasly",
+      "ocon"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "drivers-e",
+    "source": "/workspace/generated_images/exec-bf2d0674-cad5-481a-bc1e-4fc72f3ff861.png",
+    "output": "dist/assets/art/drivers-e.webp",
+    "people": [
+      "bottas",
+      "perez",
+      "hulkenberg"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "drivers-f",
+    "source": "/workspace/generated_images/exec-4af1877a-7dcd-4efd-a3d8-effe1e4bbe26.png",
+    "output": "dist/assets/art/drivers-f.webp",
+    "people": [
+      "hadjar",
+      "lawson",
+      "arvid_lindblad"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "drivers-g",
+    "source": "/workspace/generated_images/exec-c6a16340-d92d-427e-973f-d51b53b58ec1.png",
+    "output": "dist/assets/art/drivers-g.webp",
+    "people": [
+      "colapinto",
+      "bearman",
+      "bortoleto"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "drivers-h",
+    "source": "/workspace/generated_images/exec-8e675850-cc3c-412c-a34d-4e7661fee0c7.png",
+    "output": "dist/assets/art/drivers-h.webp",
+    "people": [
+      "stroll",
+      "tsunoda"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "leaders-a",
+    "source": "/workspace/generated_images/exec-90089c9c-b3a8-476b-8553-5e0d9754d367.png",
+    "output": "dist/assets/art/leaders-a.webp",
+    "people": [
+      "toto-wolff",
+      "fred-vasseur",
+      "andrea-stella"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "leaders-b",
+    "source": "/workspace/generated_images/exec-9beb4b3c-c651-4d67-a790-c69d8ad5aa7f.png",
+    "output": "dist/assets/art/leaders-b.webp",
+    "people": [
+      "laurent-mekies",
+      "alan-permane",
+      "flavio-briatore"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "leaders-c",
+    "source": "/workspace/generated_images/exec-63773bfa-012f-4f93-8045-26cfcdff01d0.png",
+    "output": "dist/assets/art/leaders-c.webp",
+    "people": [
+      "ayao-komatsu",
+      "mattia-binotto",
+      "james-vowles"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "leaders-d",
+    "source": "/workspace/generated_images/exec-4d7023ff-f373-4d60-b9c3-efff21aae67b.png",
+    "output": "dist/assets/art/leaders-d.webp",
+    "people": [
+      "adrian-newey",
+      "marcin-budkowski",
+      "steve-nielsen"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  },
+  {
+    "asset": "leaders-e",
+    "source": "/workspace/generated_images/exec-432f0ef8-f4ff-43fc-93bc-c7d056b704e9.png",
+    "output": "dist/assets/art/leaders-e.webp",
+    "people": [
+      "allan-mcnish"
+    ],
+    "columns": 6,
+    "rows": 3,
+    "frames": 6,
+    "encoding": "WebP quality 95; original dimensions and composition retained"
+  }
+]

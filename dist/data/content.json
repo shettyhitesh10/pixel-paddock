@@ -3,7 +3,7 @@
     "season": 2026,
     "standingsSeason": 2026,
     "standingsRound": 17,
-    "updatedAt": "2026-10-12T04:24:00Z",
+    "updatedAt": "2026-10-12T06:39:22Z",
     "status": "Official classification and standings after the Singapore Grand Prix, 11 October 2026.",
     "sources": [
       {
@@ -149,8 +149,24 @@
         ],
         "verification": "observed",
         "note": null
+      },
+      "driverWeekends": {
+        "fetchedAt": "2026-10-12T06:39:22Z",
+        "sourcePublishedAt": null,
+        "session": "Singapore Grand Prix · driver dossiers",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ],
+        "note": "Official timing, starting grid and pit-lane records; brief reported context and radio excerpts. Teammate comparisons and AI assessment are derived and labelled."
       }
-    }
+    },
+    "schemaVersion": 2
   },
   "drivers": [
     {
@@ -2756,5 +2772,3012 @@
       "q3": null,
       "note": null
     }
-  ]
+  ],
+  "driverWeekends": {
+    "antonelli": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "antonelli",
+        "position": 4,
+        "q1": "1:33.601",
+        "q2": "1:32.079",
+        "q3": "1:31.562",
+        "note": null
+      },
+      "race": {
+        "driverId": "antonelli",
+        "position": 3,
+        "time": "+24.573s",
+        "laps": 62,
+        "points": 15,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "antonelli",
+        "position": 4,
+        "time": "+17.238s",
+        "points": 5,
+        "laps": 20
+      },
+      "grid": {
+        "position": 4,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:35.589",
+        "lap": 43,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 23,
+            "pitLaneSeconds": 24.115,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          },
+          {
+            "lap": 39,
+            "pitLaneSeconds": 23.591,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 23,
+            "compound": "SOFT",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 24,
+            "endLap": 39,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 40,
+            "endLap": 62,
+            "compound": "SOFT",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 47.706,
+        "reportedNote": {
+          "text": "Used fresh tyres to claim third late.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [
+          {
+            "speaker": "Kimi Antonelli",
+            "type": "direct quote",
+            "text": "I feel something leaking between my feet.",
+            "context": "During the race; exact radio lap not published",
+            "lap": null,
+            "sourceUrl": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+          }
+        ],
+        "coverage": "Published excerpt",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "russell",
+        "qualifyingStage": "Q3",
+        "qualifyingDeltaSeconds": -0.185,
+        "raceGapSeconds": -60.104,
+        "raceGapNote": "Same-lap finish gap",
+        "racePositions": [
+          3,
+          9
+        ],
+        "racePoints": [
+          15,
+          2
+        ],
+        "weekendPoints": [
+          20,
+          2
+        ],
+        "fastestLaps": [
+          "1:35.589",
+          "1:36.722"
+        ],
+        "pitStops": [
+          2,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Race-day conversion",
+        "overview": "Kimi Antonelli started from P4 and was P3 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 20 points; George Russell scored 2 across those sessions.",
+        "criticalTake": "The weekend strengthened the title position. His advantage over Russell is convincing in points, but the different starting situations prevent a clean race-pace verdict.",
+        "assessment": [
+          "The comparable Q3 lap was 0.185s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "The 18-point advantage over the teammate is a positive weekend outcome. It does not isolate the effects of tyres, traffic, strategy or starting position."
+        ],
+        "reportedContext": {
+          "text": "Used fresh tyres to claim third late.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "russell": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "russell",
+        "position": 6,
+        "q1": "1:33.617",
+        "q2": "1:32.212",
+        "q3": "1:31.747",
+        "note": "Qualifying position; engine penalty affects starting grid."
+      },
+      "race": {
+        "driverId": "russell",
+        "position": 9,
+        "time": "+84.677s",
+        "laps": 62,
+        "points": 2,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "russell",
+        "position": "NC",
+        "time": "DNF",
+        "points": 0,
+        "laps": 1
+      },
+      "grid": {
+        "position": 19,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:36.722",
+        "lap": 41,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 39,
+            "pitLaneSeconds": 23.648,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 39,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 40,
+            "endLap": 62,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 23.648,
+        "reportedNote": {
+          "text": "VSC ended as he reached pit entry.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "antonelli",
+        "qualifyingStage": "Q3",
+        "qualifyingDeltaSeconds": 0.185,
+        "raceGapSeconds": 60.104,
+        "raceGapNote": "Same-lap finish gap",
+        "racePositions": [
+          9,
+          3
+        ],
+        "racePoints": [
+          2,
+          15
+        ],
+        "weekendPoints": [
+          2,
+          20
+        ],
+        "fastestLaps": [
+          "1:36.722",
+          "1:35.589"
+        ],
+        "pitStops": [
+          1,
+          2
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Race-day conversion",
+        "overview": "George Russell started from P19 and was P9 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 2 points; Kimi Antonelli scored 20 across those sessions.",
+        "criticalTake": "Recovery matters here, yet it does not erase the cost of starting deep in the field. The teammate deficit needs to be read alongside the grid penalty.",
+        "assessment": [
+          "The comparable Q3 lap was 0.185s slower than the teammate. That measures one-lap execution, not race pace.",
+          "The 18-point deficit to the teammate makes conversion the main review topic. Lap-by-lap context is needed before attributing that deficit to a driving mistake."
+        ],
+        "reportedContext": {
+          "text": "VSC ended as he reached pit entry.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "hamilton": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "hamilton",
+        "position": 3,
+        "q1": "1:32.429",
+        "q2": "1:31.529",
+        "q3": "1:31.496",
+        "note": null
+      },
+      "race": {
+        "driverId": "hamilton",
+        "position": 6,
+        "time": "+53.188s",
+        "laps": 62,
+        "points": 8,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "hamilton",
+        "position": 2,
+        "time": "+2.591s",
+        "points": 7,
+        "laps": 20
+      },
+      "grid": {
+        "position": 3,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:36.922",
+        "lap": 28,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 18,
+            "pitLaneSeconds": 24.048,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 18,
+            "compound": "MEDIUM",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 19,
+            "endLap": 62,
+            "compound": "SOFT",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.048,
+        "reportedNote": {
+          "text": "Missed the VSC pit entry; tyres faded.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [
+          {
+            "speaker": "Lewis Hamilton",
+            "type": "direct quote",
+            "text": "Sorry boys, I let you down with that strategy.",
+            "context": "After the finish",
+            "lap": null,
+            "sourceUrl": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+          }
+        ],
+        "coverage": "Published excerpt",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "leclerc",
+        "qualifyingStage": "Q3",
+        "qualifyingDeltaSeconds": 0.069,
+        "raceGapSeconds": 45.853,
+        "raceGapNote": "Same-lap finish gap",
+        "racePositions": [
+          6,
+          2
+        ],
+        "racePoints": [
+          8,
+          18
+        ],
+        "weekendPoints": [
+          15,
+          24
+        ],
+        "fastestLaps": [
+          "1:36.922",
+          "1:35.202"
+        ],
+        "pitStops": [
+          1,
+          2
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Race-day conversion",
+        "overview": "Lewis Hamilton started from P3 and was P6 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 15 points; Charles Leclerc scored 24 across those sessions.",
+        "criticalTake": "The raw qualifying pace was competitive; the race return was weaker. Strategy execution deserves closer scrutiny than the fastest-lap ranking.",
+        "assessment": [
+          "The comparable Q3 lap was 0.069s slower than the teammate. That measures one-lap execution, not race pace.",
+          "The 9-point deficit to the teammate makes conversion the main review topic. Lap-by-lap context is needed before attributing that deficit to a driving mistake."
+        ],
+        "reportedContext": {
+          "text": "Missed the VSC pit entry; tyres faded.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "leclerc": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "leclerc",
+        "position": 2,
+        "q1": "1:32.774",
+        "q2": "1:31.953",
+        "q3": "1:31.427",
+        "note": null
+      },
+      "race": {
+        "driverId": "leclerc",
+        "position": 2,
+        "time": "+7.335s",
+        "laps": 62,
+        "points": 18,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "leclerc",
+        "position": 3,
+        "time": "+16.871s",
+        "points": 6,
+        "laps": 20
+      },
+      "grid": {
+        "position": 2,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:35.202",
+        "lap": 41,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 24,
+            "pitLaneSeconds": 24.641,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          },
+          {
+            "lap": 39,
+            "pitLaneSeconds": 24.109,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 24,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 25,
+            "endLap": 39,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 40,
+            "endLap": 62,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 48.75,
+        "reportedNote": {
+          "text": "A second stop helped secure the runner-up finish.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "hamilton",
+        "qualifyingStage": "Q3",
+        "qualifyingDeltaSeconds": -0.069,
+        "raceGapSeconds": -45.853,
+        "raceGapNote": "Same-lap finish gap",
+        "racePositions": [
+          2,
+          6
+        ],
+        "racePoints": [
+          18,
+          8
+        ],
+        "weekendPoints": [
+          24,
+          15
+        ],
+        "fastestLaps": [
+          "1:35.202",
+          "1:36.922"
+        ],
+        "pitStops": [
+          2,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Race-day conversion",
+        "overview": "Charles Leclerc started from P2 and was P2 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 24 points; Lewis Hamilton scored 15 across those sessions.",
+        "criticalTake": "A good race return, but pole remained within reach on the timing sheet. The review should separate one-lap precision from an effective race strategy.",
+        "assessment": [
+          "The comparable Q3 lap was 0.069s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "The 9-point advantage over the teammate is a positive weekend outcome. It does not isolate the effects of tyres, traffic, strategy or starting position."
+        ],
+        "reportedContext": {
+          "text": "A second stop helped secure the runner-up finish.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "norris": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "norris",
+        "position": 5,
+        "q1": "1:32.775",
+        "q2": "1:31.895",
+        "q3": "1:31.712",
+        "note": null
+      },
+      "race": {
+        "driverId": "norris",
+        "position": 4,
+        "time": "+40.506s",
+        "laps": 62,
+        "points": 12,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "norris",
+        "position": 8,
+        "time": "+28.272s",
+        "points": 1,
+        "laps": 20
+      },
+      "grid": {
+        "position": 5,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:36.282",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 32,
+            "pitLaneSeconds": 23.922,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 32,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 33,
+            "endLap": 62,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 23.922,
+        "reportedNote": {
+          "text": "Finished fourth after contesting the final podium place.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [
+          {
+            "speaker": "Lando Norris",
+            "type": "reported summary",
+            "text": "Asked whether he could help Piastri near the finish.",
+            "context": "Closing stages",
+            "lap": null,
+            "sourceUrl": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+          }
+        ],
+        "coverage": "Published excerpt",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "piastri",
+        "qualifyingStage": "Q3",
+        "qualifyingDeltaSeconds": -0.148,
+        "raceGapSeconds": -9.138,
+        "raceGapNote": "Same-lap finish gap",
+        "racePositions": [
+          4,
+          5
+        ],
+        "racePoints": [
+          12,
+          10
+        ],
+        "weekendPoints": [
+          13,
+          10
+        ],
+        "fastestLaps": [
+          "1:36.282",
+          "1:35.665"
+        ],
+        "pitStops": [
+          1,
+          2
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Race-day conversion",
+        "overview": "Lando Norris started from P5 and was P4 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 13 points; Oscar Piastri scored 10 across those sessions.",
+        "criticalTake": "A better points outcome than the teammate, with a qualifying edge too. That is a positive comparison without proving the car extracted every available position.",
+        "assessment": [
+          "The comparable Q3 lap was 0.148s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "The 3-point advantage over the teammate is a positive weekend outcome. It does not isolate the effects of tyres, traffic, strategy or starting position."
+        ],
+        "reportedContext": {
+          "text": "Finished fourth after contesting the final podium place.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "max_verstappen": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "max_verstappen",
+        "position": 1,
+        "q1": "1:33.241",
+        "q2": "1:31.639",
+        "q3": "1:31.373",
+        "note": null
+      },
+      "race": {
+        "driverId": "max_verstappen",
+        "position": 1,
+        "time": "1:42:00.785",
+        "laps": 62,
+        "points": 25,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "max_verstappen",
+        "position": 1,
+        "time": "39:48.162",
+        "points": 8,
+        "laps": 20
+      },
+      "grid": {
+        "position": 1,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:36.201",
+        "lap": 44,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 32,
+            "pitLaneSeconds": 23.698,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 32,
+            "compound": "SOFT",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 33,
+            "endLap": 62,
+            "compound": "MEDIUM",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 23.698,
+        "reportedNote": {
+          "text": "Controlled the lead after defending the start.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [
+          {
+            "speaker": "Red Bull / Verstappen",
+            "type": "reported summary",
+            "text": "Radio reception problems prompted communication using the pit board.",
+            "context": "Race report summary",
+            "lap": null,
+            "sourceUrl": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+          }
+        ],
+        "coverage": "Published excerpt",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "hadjar",
+        "qualifyingStage": null,
+        "qualifyingDeltaSeconds": null,
+        "raceGapSeconds": -90.862,
+        "raceGapNote": "Same-lap finish gap",
+        "racePositions": [
+          1,
+          10
+        ],
+        "racePoints": [
+          25,
+          1
+        ],
+        "weekendPoints": [
+          33,
+          1
+        ],
+        "fastestLaps": [
+          "1:36.201",
+          "1:35.917"
+        ],
+        "pitStops": [
+          1,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Pole converted into victory",
+        "overview": "Max Verstappen started from P1 and was P1 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 33 points; Isack Hadjar scored 1 across those sessions.",
+        "criticalTake": "The strongest conversion on the grid: qualifying advantage translated into the highest race-and-Sprint return. The teammate comparison is limited by Hadjar’s compromised starting position.",
+        "assessment": [
+          "A like-for-like qualifying time comparison is unavailable. A missing timed lap should not be treated as a pace deficit.",
+          "The 32-point advantage over the teammate is a positive weekend outcome. It does not isolate the effects of tyres, traffic, strategy or starting position."
+        ],
+        "reportedContext": {
+          "text": "Controlled the lead after defending the start.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "piastri": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "piastri",
+        "position": 7,
+        "q1": "1:33.076",
+        "q2": "1:32.245",
+        "q3": "1:31.860",
+        "note": null
+      },
+      "race": {
+        "driverId": "piastri",
+        "position": 5,
+        "time": "+49.644s",
+        "laps": 62,
+        "points": 10,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "piastri",
+        "position": 14,
+        "time": "DNF",
+        "points": 0,
+        "laps": 19
+      },
+      "grid": {
+        "position": 6,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:35.665",
+        "lap": 44,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 33,
+            "pitLaneSeconds": 25.713,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          },
+          {
+            "lap": 41,
+            "pitLaneSeconds": 24.076,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 33,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 34,
+            "endLap": 41,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 42,
+            "endLap": 62,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 49.789,
+        "reportedNote": {
+          "text": "A puncture required a second stop.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "norris",
+        "qualifyingStage": "Q3",
+        "qualifyingDeltaSeconds": 0.148,
+        "raceGapSeconds": 9.138,
+        "raceGapNote": "Same-lap finish gap",
+        "racePositions": [
+          5,
+          4
+        ],
+        "racePoints": [
+          10,
+          12
+        ],
+        "weekendPoints": [
+          10,
+          13
+        ],
+        "fastestLaps": [
+          "1:35.665",
+          "1:36.282"
+        ],
+        "pitStops": [
+          2,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Race-day conversion",
+        "overview": "Oscar Piastri started from P6 and was P5 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 10 points; Lando Norris scored 13 across those sessions.",
+        "criticalTake": "The race recovered useful points, but the qualifying comparison gives Norris the one-lap advantage. Tyre disruption complicates any judgment of the race gap.",
+        "assessment": [
+          "The comparable Q3 lap was 0.148s slower than the teammate. That measures one-lap execution, not race pace.",
+          "The 3-point deficit to the teammate makes conversion the main review topic. Lap-by-lap context is needed before attributing that deficit to a driving mistake."
+        ],
+        "reportedContext": {
+          "text": "A puncture required a second stop.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "hadjar": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "hadjar",
+        "position": "RT",
+        "q1": null,
+        "q2": null,
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "hadjar",
+        "position": 10,
+        "time": "+90.862s",
+        "laps": 62,
+        "points": 1,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "hadjar",
+        "position": "NC",
+        "time": "DNF",
+        "points": 0,
+        "laps": 2
+      },
+      "grid": {
+        "position": null,
+        "type": "pit lane",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:35.917",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 33,
+            "pitLaneSeconds": 24.549,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 33,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 34,
+            "endLap": 62,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.549,
+        "reportedNote": {
+          "text": "Recovered from a pit-lane start to score.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "max_verstappen",
+        "qualifyingStage": null,
+        "qualifyingDeltaSeconds": null,
+        "raceGapSeconds": 90.862,
+        "raceGapNote": "Same-lap finish gap",
+        "racePositions": [
+          10,
+          1
+        ],
+        "racePoints": [
+          1,
+          25
+        ],
+        "weekendPoints": [
+          1,
+          33
+        ],
+        "fastestLaps": [
+          "1:35.917",
+          "1:36.201"
+        ],
+        "pitStops": [
+          1,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Recovery to the points",
+        "overview": "Isack Hadjar started from pit lane and was P10 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 1 points; Max Verstappen scored 33 across those sessions.",
+        "criticalTake": "",
+        "assessment": [
+          "A like-for-like qualifying time comparison is unavailable. A missing timed lap should not be treated as a pace deficit.",
+          "The 32-point deficit to the teammate makes conversion the main review topic. Lap-by-lap context is needed before attributing that deficit to a driving mistake."
+        ],
+        "reportedContext": {
+          "text": "Recovered from a pit-lane start to score.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "lawson": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "lawson",
+        "position": 9,
+        "q1": "1:32.885",
+        "q2": "1:32.319",
+        "q3": "1:32.369",
+        "note": null
+      },
+      "race": {
+        "driverId": "lawson",
+        "position": 7,
+        "time": "+81.666s",
+        "laps": 62,
+        "points": 6,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "lawson",
+        "position": 5,
+        "time": "+20.632s",
+        "points": 4,
+        "laps": 20
+      },
+      "grid": {
+        "position": 8,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:37.193",
+        "lap": 51,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 31,
+            "pitLaneSeconds": 24.663,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 31,
+            "compound": "SOFT",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 32,
+            "endLap": 62,
+            "compound": "MEDIUM",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.663,
+        "reportedNote": {
+          "text": "Strong start, then consistent midfield race pace.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "arvid_lindblad",
+        "qualifyingStage": "Q3",
+        "qualifyingDeltaSeconds": -0.412,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          7,
+          15
+        ],
+        "racePoints": [
+          6,
+          0
+        ],
+        "weekendPoints": [
+          10,
+          0
+        ],
+        "fastestLaps": [
+          "1:37.193",
+          "1:38.154"
+        ],
+        "pitStops": [
+          1,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Race-day conversion",
+        "overview": "Liam Lawson started from P8 and was P7 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 10 points; Arvid Lindblad scored 0 across those sessions.",
+        "criticalTake": "The midfield result converted into valuable points. The large gap to Lindblad is worth studying, rather than assuming it is entirely a pace advantage.",
+        "assessment": [
+          "The comparable Q3 lap was 0.412s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "The 10-point advantage over the teammate is a positive weekend outcome. It does not isolate the effects of tyres, traffic, strategy or starting position."
+        ],
+        "reportedContext": {
+          "text": "Strong start, then consistent midfield race pace.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "gasly": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "gasly",
+        "position": 8,
+        "q1": "1:33.182",
+        "q2": "1:32.602",
+        "q3": "1:32.225",
+        "note": null
+      },
+      "race": {
+        "driverId": "gasly",
+        "position": 11,
+        "time": "+1 lap",
+        "laps": 61,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "gasly",
+        "position": 9,
+        "time": "+36.220s",
+        "points": 0,
+        "laps": 20
+      },
+      "grid": {
+        "position": 7,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:37.390",
+        "lap": 50,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 29,
+            "pitLaneSeconds": 24.581,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 29,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 30,
+            "endLap": 61,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.581,
+        "reportedNote": {
+          "text": "Traction and tyre wear compromised race pace.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "colapinto",
+        "qualifyingStage": "Q2",
+        "qualifyingDeltaSeconds": -1.185,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          11,
+          "NC"
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          0,
+          0
+        ],
+        "fastestLaps": [
+          "1:37.390",
+          "1:39.265"
+        ],
+        "pitStops": [
+          1,
+          0
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "A weekend to review",
+        "overview": "Pierre Gasly started from P7 and was P11 in the Grand Prix, completing 61 of 62 laps. The race and Sprint yielded 0 points; Franco Colapinto scored 0 across those sessions.",
+        "criticalTake": "Qualifying suggested more potential than the race delivered. The priority is understanding the failure to convert track position into points.",
+        "assessment": [
+          "The comparable Q2 lap was 1.185s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "Retirement distorts the points comparison. The finishing order alone cannot establish which driver had better underlying race pace."
+        ],
+        "reportedContext": {
+          "text": "Traction and tyre wear compromised race pace.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "arvid_lindblad": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "arvid_lindblad",
+        "position": 10,
+        "q1": "1:33.288",
+        "q2": "1:32.498",
+        "q3": "1:32.781",
+        "note": null
+      },
+      "race": {
+        "driverId": "arvid_lindblad",
+        "position": 15,
+        "time": "+1 lap",
+        "laps": 61,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "arvid_lindblad",
+        "position": 13,
+        "time": "+55.792s",
+        "points": 0,
+        "laps": 20
+      },
+      "grid": {
+        "position": 9,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:38.154",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 26,
+            "pitLaneSeconds": 24.372,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 26,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 27,
+            "endLap": 61,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.372,
+        "reportedNote": {
+          "text": "Wheelspin and first-corner crowding cost track position.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "lawson",
+        "qualifyingStage": "Q3",
+        "qualifyingDeltaSeconds": 0.412,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          15,
+          7
+        ],
+        "racePoints": [
+          0,
+          6
+        ],
+        "weekendPoints": [
+          0,
+          10
+        ],
+        "fastestLaps": [
+          "1:38.154",
+          "1:37.193"
+        ],
+        "pitStops": [
+          1,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "A weekend to review",
+        "overview": "Arvid Lindblad started from P9 and was P15 in the Grand Prix, completing 61 of 62 laps. The race and Sprint yielded 0 points; Liam Lawson scored 10 across those sessions.",
+        "criticalTake": "The qualifying-to-race conversion is the concern. Track position and the opening sequence should be examined before assigning the whole deficit to pace.",
+        "assessment": [
+          "The comparable Q3 lap was 0.412s slower than the teammate. That measures one-lap execution, not race pace.",
+          "The 10-point deficit to the teammate makes conversion the main review topic. Lap-by-lap context is needed before attributing that deficit to a driving mistake."
+        ],
+        "reportedContext": {
+          "text": "Wheelspin and first-corner crowding cost track position.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "colapinto": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "colapinto",
+        "position": 16,
+        "q1": "1:33.261",
+        "q2": "1:33.787",
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "colapinto",
+        "position": "NC",
+        "time": "DNF",
+        "laps": 29,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "colapinto",
+        "position": "NC",
+        "time": "DNF",
+        "points": 0,
+        "laps": 2
+      },
+      "grid": {
+        "position": 15,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:39.265",
+        "lap": 13,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 29,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 0,
+        "reportedNote": {
+          "text": "Suspected driveline trouble caused retirement.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "gasly",
+        "qualifyingStage": "Q2",
+        "qualifyingDeltaSeconds": 1.185,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          "NC",
+          11
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          0,
+          0
+        ],
+        "fastestLaps": [
+          "1:39.265",
+          "1:37.390"
+        ],
+        "pitStops": [
+          0,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Retirement limits the verdict",
+        "overview": "Franco Colapinto started from P15 and was not classified in the Grand Prix, completing 29 of 62 laps. The race and Sprint yielded 0 points; Pierre Gasly scored 0 across those sessions.",
+        "criticalTake": "Retirement leaves the main performance question open. The qualifying comparison still offers evidence, but there is no representative full-race outcome.",
+        "assessment": [
+          "The comparable Q2 lap was 1.185s slower than the teammate. That measures one-lap execution, not race pace.",
+          "Retirement distorts the points comparison. The finishing order alone cannot establish which driver had better underlying race pace."
+        ],
+        "reportedContext": {
+          "text": "Suspected driveline trouble caused retirement.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "bearman": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "bearman",
+        "position": 12,
+        "q1": "1:33.356",
+        "q2": "1:32.908",
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "bearman",
+        "position": 12,
+        "time": "+1 lap",
+        "laps": 61,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "bearman",
+        "position": 6,
+        "time": "+24.321s",
+        "points": 3,
+        "laps": 20
+      },
+      "grid": {
+        "position": 11,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:37.556",
+        "lap": 37,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 33,
+            "pitLaneSeconds": 24.871,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 33,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 34,
+            "endLap": 61,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.871,
+        "reportedNote": {
+          "text": "Opening traffic limited his first stint.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "ocon",
+        "qualifyingStage": "Q2",
+        "qualifyingDeltaSeconds": -0.415,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          12,
+          13
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          3,
+          0
+        ],
+        "fastestLaps": [
+          "1:37.556",
+          "1:38.129"
+        ],
+        "pitStops": [
+          1,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "A weekend to review",
+        "overview": "Oliver Bearman started from P11 and was P12 in the Grand Prix, completing 61 of 62 laps. The race and Sprint yielded 3 points; Esteban Ocon scored 0 across those sessions.",
+        "criticalTake": "The teammate comparison offers a small positive, while the absence of points remains the larger issue. More lap-level detail is needed to distinguish traffic from pace.",
+        "assessment": [
+          "The comparable Q2 lap was 0.415s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "The 3-point advantage over the teammate is a positive weekend outcome. It does not isolate the effects of tyres, traffic, strategy or starting position."
+        ],
+        "reportedContext": {
+          "text": "Opening traffic limited his first stint.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "bortoleto": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "bortoleto",
+        "position": 15,
+        "q1": "1:34.169",
+        "q2": "1:33.658",
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "bortoleto",
+        "position": "NC",
+        "time": "DNF",
+        "laps": 7,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "bortoleto",
+        "position": "NC",
+        "time": "DNF",
+        "points": 0,
+        "laps": 6
+      },
+      "grid": {
+        "position": 14,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:40.486",
+        "lap": 6,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 7,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 0,
+        "reportedNote": {
+          "text": "Suspected gearbox issue ended his race.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "hulkenberg",
+        "qualifyingStage": "Q2",
+        "qualifyingDeltaSeconds": 0.874,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          "NC",
+          8
+        ],
+        "racePoints": [
+          0,
+          4
+        ],
+        "weekendPoints": [
+          0,
+          6
+        ],
+        "fastestLaps": [
+          "1:40.486",
+          "1:37.055"
+        ],
+        "pitStops": [
+          0,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Retirement limits the verdict",
+        "overview": "Gabriel Bortoleto started from P14 and was not classified in the Grand Prix, completing 7 of 62 laps. The race and Sprint yielded 0 points; Nico Hülkenberg scored 6 across those sessions.",
+        "criticalTake": "A short race leaves too little evidence for a race-pace verdict. Reliability should be resolved before turning the points deficit into a driver-performance judgment.",
+        "assessment": [
+          "The comparable Q2 lap was 0.874s slower than the teammate. That measures one-lap execution, not race pace.",
+          "Retirement distorts the points comparison. The finishing order alone cannot establish which driver had better underlying race pace."
+        ],
+        "reportedContext": {
+          "text": "Suspected gearbox issue ended his race.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "hulkenberg": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "hulkenberg",
+        "position": 11,
+        "q1": "1:33.147",
+        "q2": "1:32.784",
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "hulkenberg",
+        "position": 8,
+        "time": "+83.386s",
+        "laps": 62,
+        "points": 4,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "hulkenberg",
+        "position": 7,
+        "time": "+27.525s",
+        "points": 2,
+        "laps": 20
+      },
+      "grid": {
+        "position": 10,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:37.055",
+        "lap": 60,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 30,
+            "pitLaneSeconds": 24.375,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 30,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 31,
+            "endLap": 62,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.375,
+        "reportedNote": {
+          "text": "Held Russell behind to secure eighth.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "bortoleto",
+        "qualifyingStage": "Q2",
+        "qualifyingDeltaSeconds": -0.874,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          8,
+          "NC"
+        ],
+        "racePoints": [
+          4,
+          0
+        ],
+        "weekendPoints": [
+          6,
+          0
+        ],
+        "fastestLaps": [
+          "1:37.055",
+          "1:40.486"
+        ],
+        "pitStops": [
+          1,
+          0
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Race-day conversion",
+        "overview": "Nico Hülkenberg started from P10 and was P8 in the Grand Prix, completing 62 of 62 laps. The race and Sprint yielded 6 points; Gabriel Bortoleto scored 0 across those sessions.",
+        "criticalTake": "This was a valuable points conversion. Bortoleto’s early retirement means the finish-order comparison cannot serve as a clean measure of relative speed.",
+        "assessment": [
+          "The comparable Q2 lap was 0.874s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "Retirement distorts the points comparison. The finishing order alone cannot establish which driver had better underlying race pace."
+        ],
+        "reportedContext": {
+          "text": "Held Russell behind to secure eighth.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "ocon": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "ocon",
+        "position": 13,
+        "q1": "1:33.803",
+        "q2": "1:33.323",
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "ocon",
+        "position": 13,
+        "time": "+1 lap",
+        "laps": 61,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "ocon",
+        "position": 10,
+        "time": "+37.640s",
+        "points": 0,
+        "laps": 20
+      },
+      "grid": {
+        "position": 12,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:38.129",
+        "lap": 41,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 28,
+            "pitLaneSeconds": 24.931,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 28,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 29,
+            "endLap": 61,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.931,
+        "reportedNote": {
+          "text": "Reported grip problems and sliding.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "bearman",
+        "qualifyingStage": "Q2",
+        "qualifyingDeltaSeconds": 0.415,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          13,
+          12
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          0,
+          3
+        ],
+        "fastestLaps": [
+          "1:38.129",
+          "1:37.556"
+        ],
+        "pitStops": [
+          1,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "A weekend to review",
+        "overview": "Esteban Ocon started from P12 and was P13 in the Grand Prix, completing 61 of 62 laps. The race and Sprint yielded 0 points; Oliver Bearman scored 3 across those sessions.",
+        "criticalTake": "The race and qualifying comparisons should be reviewed together. A narrow finishing difference alone is a weak basis for judging the weekend.",
+        "assessment": [
+          "The comparable Q2 lap was 0.415s slower than the teammate. That measures one-lap execution, not race pace.",
+          "The 3-point deficit to the teammate makes conversion the main review topic. Lap-by-lap context is needed before attributing that deficit to a driving mistake."
+        ],
+        "reportedContext": {
+          "text": "Reported grip problems and sliding.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "alonso": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "alonso",
+        "position": 17,
+        "q1": "1:34.223",
+        "q2": null,
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "alonso",
+        "position": 16,
+        "time": "+1 lap",
+        "laps": 61,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "alonso",
+        "position": 11,
+        "time": "+50.464s",
+        "points": 0,
+        "laps": 20
+      },
+      "grid": {
+        "position": null,
+        "type": "pit lane",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:38.032",
+        "lap": 38,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 35,
+            "pitLaneSeconds": 24.33,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 35,
+            "compound": "SOFT",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 36,
+            "endLap": 61,
+            "compound": "MEDIUM",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.33,
+        "reportedNote": {
+          "text": "Driveability problems limited the pit-lane recovery.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "stroll",
+        "qualifyingStage": "Q1",
+        "qualifyingDeltaSeconds": -0.723,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          16,
+          "NC"
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          0,
+          0
+        ],
+        "fastestLaps": [
+          "1:38.032",
+          "1:39.137"
+        ],
+        "pitStops": [
+          1,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "A weekend to review",
+        "overview": "Fernando Alonso started from pit lane and was P16 in the Grand Prix, completing 61 of 62 laps. The race and Sprint yielded 0 points; Lance Stroll scored 0 across those sessions.",
+        "criticalTake": "The pit-lane start makes the recovery context essential. Completing the race provides more evidence than Stroll’s truncated run, but not a like-for-like pace test.",
+        "assessment": [
+          "The comparable Q1 lap was 0.723s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "Retirement distorts the points comparison. The finishing order alone cannot establish which driver had better underlying race pace."
+        ],
+        "reportedContext": {
+          "text": "Driveability problems limited the pit-lane recovery.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "sainz": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "sainz",
+        "position": 14,
+        "q1": "1:33.774",
+        "q2": "1:33.526",
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "sainz",
+        "position": 14,
+        "time": "+1 lap",
+        "laps": 61,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "sainz",
+        "position": 12,
+        "time": "+52.467s",
+        "points": 0,
+        "laps": 20
+      },
+      "grid": {
+        "position": 13,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:38.326",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 31,
+            "pitLaneSeconds": 24.202,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 31,
+            "compound": "SOFT",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 32,
+            "endLap": 61,
+            "compound": "MEDIUM",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 24.202,
+        "reportedNote": {
+          "text": "Battery problems followed a strong start.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "albon",
+        "qualifyingStage": "Q1",
+        "qualifyingDeltaSeconds": -0.515,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          14,
+          18
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          0,
+          0
+        ],
+        "fastestLaps": [
+          "1:38.326",
+          "1:37.436"
+        ],
+        "pitStops": [
+          1,
+          2
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "A weekend to review",
+        "overview": "Carlos Sainz started from P13 and was P14 in the Grand Prix, completing 61 of 62 laps. The race and Sprint yielded 0 points; Alexander Albon scored 0 across those sessions.",
+        "criticalTake": "The race ended without a points reward despite a better outcome than the teammate. Albon’s retirement limits how much the intra-team result tells us.",
+        "assessment": [
+          "The comparable Q1 lap was 0.515s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "Retirement distorts the points comparison. The finishing order alone cannot establish which driver had better underlying race pace."
+        ],
+        "reportedContext": {
+          "text": "Battery problems followed a strong start.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "albon": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "albon",
+        "position": 18,
+        "q1": "1:34.289",
+        "q2": null,
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "albon",
+        "position": 18,
+        "time": "DNF",
+        "laps": 59,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "albon",
+        "position": "NC",
+        "time": "DNF",
+        "points": 0,
+        "laps": 14
+      },
+      "grid": {
+        "position": 16,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:37.436",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 22,
+            "pitLaneSeconds": 24.093,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          },
+          {
+            "lap": 37,
+            "pitLaneSeconds": 25.872,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 22,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 23,
+            "endLap": 37,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 38,
+            "endLap": 59,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 49.965,
+        "reportedNote": {
+          "text": "Managed fuel and brake issues before retirement.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "sainz",
+        "qualifyingStage": "Q1",
+        "qualifyingDeltaSeconds": 0.515,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          18,
+          14
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          0,
+          0
+        ],
+        "fastestLaps": [
+          "1:37.436",
+          "1:38.326"
+        ],
+        "pitStops": [
+          2,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Retirement limits the verdict",
+        "overview": "Alexander Albon started from P16 and was P18 in the Grand Prix, completing 59 of 62 laps. The race and Sprint yielded 0 points; Carlos Sainz scored 0 across those sessions.",
+        "criticalTake": "The retirement makes the finish comparison incomplete. A full account of the car issues is needed before a driving-performance verdict is fair.",
+        "assessment": [
+          "The comparable Q1 lap was 0.515s slower than the teammate. That measures one-lap execution, not race pace.",
+          "Retirement distorts the points comparison. The finishing order alone cannot establish which driver had better underlying race pace."
+        ],
+        "reportedContext": {
+          "text": "Managed fuel and brake issues before retirement.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "stroll": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "stroll",
+        "position": 19,
+        "q1": "1:34.946",
+        "q2": null,
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "stroll",
+        "position": "NC",
+        "time": "DNF",
+        "laps": 36,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "stroll",
+        "position": "NC",
+        "time": "DNF",
+        "points": 0,
+        "laps": 0
+      },
+      "grid": {
+        "position": null,
+        "type": "pit lane",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:39.137",
+        "lap": 29,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 26,
+            "pitLaneSeconds": 23.601,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 26,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 27,
+            "endLap": 36,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 23.601,
+        "reportedNote": {
+          "text": "Clutch overheating caused retirement.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "alonso",
+        "qualifyingStage": "Q1",
+        "qualifyingDeltaSeconds": 0.723,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          "NC",
+          16
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          0,
+          0
+        ],
+        "fastestLaps": [
+          "1:39.137",
+          "1:38.032"
+        ],
+        "pitStops": [
+          1,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "Retirement limits the verdict",
+        "overview": "Lance Stroll started from pit lane and was not classified in the Grand Prix, completing 36 of 62 laps. The race and Sprint yielded 0 points; Fernando Alonso scored 0 across those sessions.",
+        "criticalTake": "The retirement prevents a useful full-race comparison with Alonso. The story should stay focused on verified constraints rather than inventing a driver-error explanation.",
+        "assessment": [
+          "The comparable Q1 lap was 0.723s slower than the teammate. That measures one-lap execution, not race pace.",
+          "Retirement distorts the points comparison. The finishing order alone cannot establish which driver had better underlying race pace."
+        ],
+        "reportedContext": {
+          "text": "Clutch overheating caused retirement.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "bottas": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "bottas",
+        "position": 21,
+        "q1": "1:35.984",
+        "q2": null,
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "bottas",
+        "position": 19,
+        "time": "+3 laps",
+        "laps": 59,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "bottas",
+        "position": "NC",
+        "time": "DNF",
+        "points": 0,
+        "laps": 6
+      },
+      "grid": {
+        "position": 18,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:40.171",
+        "lap": 31,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 28,
+            "pitLaneSeconds": 29.266,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 28,
+            "compound": "MEDIUM",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 29,
+            "endLap": 59,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 29.266,
+        "reportedNote": {
+          "text": "Starting on mediums left him off the pace.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "perez",
+        "qualifyingStage": "Q1",
+        "qualifyingDeltaSeconds": 0.861,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          19,
+          17
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          0,
+          0
+        ],
+        "fastestLaps": [
+          "1:40.171",
+          "1:38.574"
+        ],
+        "pitStops": [
+          1,
+          2
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "A weekend to review",
+        "overview": "Valtteri Bottas started from P18 and was P19 in the Grand Prix, completing 59 of 62 laps. The race and Sprint yielded 0 points; Sergio Pérez scored 0 across those sessions.",
+        "criticalTake": "A completed race is useful operationally, but the teammate comparison still points to a weaker weekend return in position. Strategy and starting tyres deserve review.",
+        "assessment": [
+          "The comparable Q1 lap was 0.861s slower than the teammate. That measures one-lap execution, not race pace.",
+          "The teammates scored equally across the race and Sprint. Finishing position and comparable qualifying times provide more useful separation than points alone."
+        ],
+        "reportedContext": {
+          "text": "Starting on mediums left him off the pace.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "perez": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "fetchedAt": "2026-10-12T06:39:22Z",
+      "status": "captured",
+      "qualifying": {
+        "driverId": "perez",
+        "position": 20,
+        "q1": "1:35.123",
+        "q2": null,
+        "q3": null,
+        "note": null
+      },
+      "race": {
+        "driverId": "perez",
+        "position": 17,
+        "time": "+2 laps",
+        "laps": 60,
+        "points": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      },
+      "sprint": {
+        "driverId": "perez",
+        "position": "NC",
+        "time": "DNF",
+        "points": 0,
+        "laps": 1
+      },
+      "grid": {
+        "position": 17,
+        "type": "grid",
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid"
+      },
+      "fastestLap": {
+        "time": "1:38.574",
+        "lap": 44,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "strategy": {
+        "pitStops": [
+          {
+            "lap": 21,
+            "pitLaneSeconds": 25.287,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          },
+          {
+            "lap": 38,
+            "pitLaneSeconds": 24.85,
+            "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+          }
+        ],
+        "stints": [
+          {
+            "startLap": 1,
+            "endLap": 21,
+            "compound": "SOFT",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 22,
+            "endLap": 38,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          },
+          {
+            "startLap": 39,
+            "endLap": 60,
+            "compound": "UNKNOWN",
+            "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+          }
+        ],
+        "pitLaneTotalSeconds": 50.137,
+        "reportedNote": {
+          "text": "Two stops; finished ahead of Bottas.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "compoundCoverage": "Partial: unknown compounds are left blank",
+        "lapConvention": "Stint boundaries follow the official pit-entry lap records; they are derived, not telemetry."
+      },
+      "radio": {
+        "items": [],
+        "coverage": "No verified excerpt in this capture",
+        "complete": false
+      },
+      "teammate": {
+        "driverId": "bottas",
+        "qualifyingStage": "Q1",
+        "qualifyingDeltaSeconds": -0.861,
+        "raceGapSeconds": null,
+        "raceGapNote": "Finish-time gap unavailable: retirement or different laps",
+        "racePositions": [
+          17,
+          19
+        ],
+        "racePoints": [
+          0,
+          0
+        ],
+        "weekendPoints": [
+          0,
+          0
+        ],
+        "fastestLaps": [
+          "1:38.574",
+          "1:40.171"
+        ],
+        "pitStops": [
+          2,
+          1
+        ]
+      },
+      "story": {
+        "label": "AI race story",
+        "method": "AI-authored assessment of verified classification and reported context; computed timing/points comparisons.",
+        "headline": "A weekend to review",
+        "overview": "Sergio Pérez started from P17 and was P17 in the Grand Prix, completing 60 of 62 laps. The race and Sprint yielded 0 points; Valtteri Bottas scored 0 across those sessions.",
+        "criticalTake": "Finishing ahead of Bottas is a positive intra-team outcome. Both cars scoring zero keeps the wider competitiveness question unresolved.",
+        "assessment": [
+          "The comparable Q1 lap was 0.861s quicker than the teammate. That measures one-lap execution, not race pace.",
+          "The teammates scored equally across the race and Sprint. Finishing position and comparable qualifying times provide more useful separation than points alone."
+        ],
+        "reportedContext": {
+          "text": "Two stops; finished ahead of Bottas.",
+          "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+        },
+        "limitations": "No full lap-by-lap telemetry or complete radio archive in this capture. Assessments are subjective; incidents do not automatically imply driver fault.",
+        "generatedAt": "2026-10-12T07:35:52Z",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+          "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        ]
+      }
+    },
+    "tsunoda": {
+      "eventId": "2026-singapore",
+      "event": {
+        "name": "Singapore Grand Prix",
+        "season": 2026,
+        "round": 17,
+        "date": "2026-10-11",
+        "laps": 62
+      },
+      "status": "not entered",
+      "fetchedAt": "2026-10-12T06:39:22Z"
+    }
+  }
 }

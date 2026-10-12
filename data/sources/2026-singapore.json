@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "eventId": "2026-singapore",
+  "event": {
+    "name": "Singapore Grand Prix",
+    "season": 2026,
+    "round": 17,
+    "date": "2026-10-11",
+    "laps": 62
+  },
+  "fetchedAt": "2026-10-12T06:39:22Z",
+  "sources": {
+    "pitStops": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary",
+    "fastestLaps": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps",
+    "grid": "https://www.formula1.com/en/results/2026/races/1296/singapore/starting-grid",
+    "qualifying": "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying",
+    "race": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+    "teamReport": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6",
+    "radioReport": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+  },
+  "drivers": {
+    "max_verstappen": {
+      "gridPosition": 1,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:36.201",
+        "lap": 44,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 32,
+          "pitLaneSeconds": 23.698,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "SOFT",
+        "MEDIUM"
+      ],
+      "reportedNote": {
+        "text": "Controlled the lead after defending the start.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [
+        {
+          "speaker": "Red Bull / Verstappen",
+          "type": "reported summary",
+          "text": "Radio reception problems prompted communication using the pit board.",
+          "context": "Race report summary",
+          "lap": null,
+          "sourceUrl": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        }
+      ],
+      "radioCoverage": "Published excerpt"
+    },
+    "leclerc": {
+      "gridPosition": 2,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:35.202",
+        "lap": 41,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 24,
+          "pitLaneSeconds": 24.641,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        },
+        {
+          "lap": 39,
+          "pitLaneSeconds": 24.109,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "A second stop helped secure the runner-up finish.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "antonelli": {
+      "gridPosition": 4,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:35.589",
+        "lap": 43,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 23,
+          "pitLaneSeconds": 24.115,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        },
+        {
+          "lap": 39,
+          "pitLaneSeconds": 23.591,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "SOFT",
+        "UNKNOWN",
+        "SOFT"
+      ],
+      "reportedNote": {
+        "text": "Used fresh tyres to claim third late.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [
+        {
+          "speaker": "Kimi Antonelli",
+          "type": "direct quote",
+          "text": "I feel something leaking between my feet.",
+          "context": "During the race; exact radio lap not published",
+          "lap": null,
+          "sourceUrl": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        }
+      ],
+      "radioCoverage": "Published excerpt"
+    },
+    "norris": {
+      "gridPosition": 5,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:36.282",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 32,
+          "pitLaneSeconds": 23.922,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Finished fourth after contesting the final podium place.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [
+        {
+          "speaker": "Lando Norris",
+          "type": "reported summary",
+          "text": "Asked whether he could help Piastri near the finish.",
+          "context": "Closing stages",
+          "lap": null,
+          "sourceUrl": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        }
+      ],
+      "radioCoverage": "Published excerpt"
+    },
+    "piastri": {
+      "gridPosition": 6,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:35.665",
+        "lap": 44,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 33,
+          "pitLaneSeconds": 25.713,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        },
+        {
+          "lap": 41,
+          "pitLaneSeconds": 24.076,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "A puncture required a second stop.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "hamilton": {
+      "gridPosition": 3,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:36.922",
+        "lap": 28,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 18,
+          "pitLaneSeconds": 24.048,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "MEDIUM",
+        "SOFT"
+      ],
+      "reportedNote": {
+        "text": "Missed the VSC pit entry; tyres faded.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [
+        {
+          "speaker": "Lewis Hamilton",
+          "type": "direct quote",
+          "text": "Sorry boys, I let you down with that strategy.",
+          "context": "After the finish",
+          "lap": null,
+          "sourceUrl": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+        }
+      ],
+      "radioCoverage": "Published excerpt"
+    },
+    "lawson": {
+      "gridPosition": 8,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:37.193",
+        "lap": 51,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 31,
+          "pitLaneSeconds": 24.663,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "SOFT",
+        "MEDIUM"
+      ],
+      "reportedNote": {
+        "text": "Strong start, then consistent midfield race pace.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "hulkenberg": {
+      "gridPosition": 10,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:37.055",
+        "lap": 60,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 30,
+          "pitLaneSeconds": 24.375,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Held Russell behind to secure eighth.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "russell": {
+      "gridPosition": 19,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:36.722",
+        "lap": 41,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 39,
+          "pitLaneSeconds": 23.648,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "VSC ended as he reached pit entry.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "hadjar": {
+      "gridPosition": null,
+      "startType": "pit lane",
+      "fastestLap": {
+        "time": "1:35.917",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 33,
+          "pitLaneSeconds": 24.549,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Recovered from a pit-lane start to score.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "gasly": {
+      "gridPosition": 7,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:37.390",
+        "lap": 50,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 29,
+          "pitLaneSeconds": 24.581,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Traction and tyre wear compromised race pace.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "bearman": {
+      "gridPosition": 11,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:37.556",
+        "lap": 37,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 33,
+          "pitLaneSeconds": 24.871,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Opening traffic limited his first stint.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "ocon": {
+      "gridPosition": 12,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:38.129",
+        "lap": 41,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 28,
+          "pitLaneSeconds": 24.931,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Reported grip problems and sliding.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "sainz": {
+      "gridPosition": 13,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:38.326",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 31,
+          "pitLaneSeconds": 24.202,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "SOFT",
+        "MEDIUM"
+      ],
+      "reportedNote": {
+        "text": "Battery problems followed a strong start.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "arvid_lindblad": {
+      "gridPosition": 9,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:38.154",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 26,
+          "pitLaneSeconds": 24.372,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Wheelspin and first-corner crowding cost track position.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "alonso": {
+      "gridPosition": null,
+      "startType": "pit lane",
+      "fastestLap": {
+        "time": "1:38.032",
+        "lap": 38,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 35,
+          "pitLaneSeconds": 24.33,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "SOFT",
+        "MEDIUM"
+      ],
+      "reportedNote": {
+        "text": "Driveability problems limited the pit-lane recovery.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "perez": {
+      "gridPosition": 17,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:38.574",
+        "lap": 44,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 21,
+          "pitLaneSeconds": 25.287,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        },
+        {
+          "lap": 38,
+          "pitLaneSeconds": 24.85,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "SOFT",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Two stops; finished ahead of Bottas.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "albon": {
+      "gridPosition": 16,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:37.436",
+        "lap": 42,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 22,
+          "pitLaneSeconds": 24.093,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        },
+        {
+          "lap": 37,
+          "pitLaneSeconds": 25.872,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Managed fuel and brake issues before retirement.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "bottas": {
+      "gridPosition": 18,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:40.171",
+        "lap": 31,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 28,
+          "pitLaneSeconds": 29.266,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "MEDIUM",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Starting on mediums left him off the pace.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "stroll": {
+      "gridPosition": null,
+      "startType": "pit lane",
+      "fastestLap": {
+        "time": "1:39.137",
+        "lap": 29,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [
+        {
+          "lap": 26,
+          "pitLaneSeconds": 23.601,
+          "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/pit-stop-summary"
+        }
+      ],
+      "compounds": [
+        "UNKNOWN",
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Clutch overheating caused retirement.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "colapinto": {
+      "gridPosition": 15,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:39.265",
+        "lap": 13,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [],
+      "compounds": [
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Suspected driveline trouble caused retirement.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    },
+    "bortoleto": {
+      "gridPosition": 14,
+      "startType": "grid",
+      "fastestLap": {
+        "time": "1:40.486",
+        "lap": 6,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/fastest-laps"
+      },
+      "pitStops": [],
+      "compounds": [
+        "UNKNOWN"
+      ],
+      "reportedNote": {
+        "text": "Suspected gearbox issue ended his race.",
+        "sourceUrl": "https://www.formula1.com/en/latest/article/what-the-teams-said-race-day-in-singapore-2026.3lLHolVW3aIRAl7Ohxlxf6"
+      },
+      "radio": [],
+      "radioCoverage": "No verified excerpt in this capture"
+    }
+  }
+}

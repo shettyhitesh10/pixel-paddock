@@ -1,0 +1,168 @@
+{
+  "people": {
+    "hamilton": {
+      "src": "assets/art/helmets-a.webp",
+      "row": 0,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "norris": {
+      "src": "assets/art/helmets-a.webp",
+      "row": 1,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "max_verstappen": {
+      "src": "assets/art/helmets-a.webp",
+      "row": 2,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "russell": {
+      "src": "assets/art/helmets-b.webp",
+      "row": 0,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "leclerc": {
+      "src": "assets/art/helmets-b.webp",
+      "row": 1,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "alonso": {
+      "src": "assets/art/helmets-b.webp",
+      "row": 2,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "antonelli": {
+      "src": "assets/art/helmets-c.webp",
+      "row": 0,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "piastri": {
+      "src": "assets/art/helmets-c.webp",
+      "row": 1,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "sainz": {
+      "src": "assets/art/helmets-c.webp",
+      "row": 2,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "albon": {
+      "src": "assets/art/helmets-d.webp",
+      "row": 0,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "gasly": {
+      "src": "assets/art/helmets-d.webp",
+      "row": 1,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "ocon": {
+      "src": "assets/art/helmets-d.webp",
+      "row": 2,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "bottas": {
+      "src": "assets/art/helmets-e.webp",
+      "row": 0,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "perez": {
+      "src": "assets/art/helmets-e.webp",
+      "row": 1,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "hulkenberg": {
+      "src": "assets/art/helmets-e.webp",
+      "row": 2,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "hadjar": {
+      "src": "assets/art/helmets-f.webp",
+      "row": 0,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "lawson": {
+      "src": "assets/art/helmets-f.webp",
+      "row": 1,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "arvid_lindblad": {
+      "src": "assets/art/helmets-f.webp",
+      "row": 2,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "colapinto": {
+      "src": "assets/art/helmets-g.webp",
+      "row": 0,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "bearman": {
+      "src": "assets/art/helmets-g.webp",
+      "row": 1,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "bortoleto": {
+      "src": "assets/art/helmets-g.webp",
+      "row": 2,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "stroll": {
+      "src": "assets/art/helmets-h.webp",
+      "row": 0,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    },
+    "tsunoda": {
+      "src": "assets/art/helmets-h.webp",
+      "row": 1,
+      "frames": 6,
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "format": "6 columns x 3 rows / 6 animation frames per person",
+  "attribution": "Original AI-assisted pixel artwork. Driver-inspired helmets are fan interpretations, not exact current-season designs.",
+  "version": 5
+}

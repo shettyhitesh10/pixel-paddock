@@ -1,23 +1,23 @@
-# Project roadmap — release 4
+# Project roadmap — release 5
 
-Preserve the retro F1 game-screen direction. The user rejected photographs, white modern surfaces and overly simple sprites. The latest model preference was Astra.
+Preserve the approved retro game interface, detailed pixel assets and original character sheets. Current driver artwork uses helmets. The user requested GitHub storage first, then a local frontend POC; keep hosting and autonomous data updates for later work.
 
-## Completed
+## Completed in this revision
 
-- Full-width arcade cabinet, pixel night circuit, driver selection and team-colour garages.
-- 36 detailed sprite characters, six frames each; 47 entity profiles.
-- 23 race pages; Singapore race, qualifying and Sprint timing tables.
-- Fresh official race and championship data; dated news and attributed fan comments.
-- Search, filters, favorites, private notes and motion controls.
-- Source/template/handler checks and portable HTML with embedded build log.
+- Preserved approved release 4 in GitHub commit b0409c5cda21b8161cfc40c7171ac2e971b4b85e.
+- Added 23 helmeted driver characters; original faces and principals retained.
+- Added 22 weekend dossiers: timing, strategy, radio coverage, AI story and teammate comparison. Former entrants are not assigned invented weekend data.
+- Source facts separated from derived analysis; comparison semantics and failure handling tested.
+- Historical OpenF1 collector and an explicit path toward autonomous population prepared.
+- Portable HTML and build report updated.
 
-## Remaining, in order
+## Next work
 
-1. Real-browser desktop/mobile inspection and observed layout fixes. Current sandbox blocks Chromium.
-2. Synchronize source and publish the same tested revision; then enable recurring improvement task. Neither publication nor scheduling has occurred.
-3. Expand verified news and comments for profiles with little coverage; preserve honest empty states.
-4. Replace Singapore-specific presentation strings with event-driven templates before the next race update. The refresh script creates review candidates only.
-5. Add more historical race classifications and championship progression charts.
-6. Refine sprite likenesses and motion from user feedback, keeping original pixel art.
+1. Inspect the local POC in a real browser and fix observed layout/interaction issues.
+2. Normalize provider candidates into the event dossier contract and make the overall race centre/dashboard event-driven.
+3. Expand sourced radio/tyre coverage; add verified audio and corrected transcripts when available.
+4. Add representative lap-by-lap pace, race-control incidents and stint comparisons with context filters.
+5. Add evidence-grounded server-generated AI stories with provenance and review controls.
+6. Add validated automatic snapshot updates and then a scheduler/backend.
 
-Record actual work and remaining limits in `dist/data/progress.json`, regenerate the report and standalone export. Do not claim browser verification from template checks.
+Keep missing data explicit. Distinguish pit-lane transit from stationary stop duration, qualifying classification from actual grid, and mechanical retirement from driver error. No model credential belongs in the frontend.

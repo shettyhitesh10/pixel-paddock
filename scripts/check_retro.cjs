@@ -6,7 +6,7 @@ function node(id){if(!nodes.has(id)){const classes=new Set();nodes.set(id,{id,in
 const document={body:node('body'),querySelector:node,querySelectorAll:()=>[],addEventListener:(e,f)=>handlers[e]=f,title:''};
 const c={document,location:{hash:''},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},URL,URLSearchParams,Date,Math,Map,Set,JSON,Number,String,Array,Object,encodeURIComponent,decodeURIComponent,setTimeout:()=>1,clearTimeout(){},setInterval(){},matchMedia:()=>({matches:false}),getComputedStyle:()=>({gridTemplateColumns:'1fr 1fr 1fr 1fr 1fr'}),console:{log:console.log,error:e=>errors.push(String(e))}};
 c.window={...c,PIXEL_PADDOCK_BOOTSTRAP:data,scrollTo(){},addEventListener:(e,f)=>handlers['window:'+e]=f};vm.createContext(c);
-for(const file of ['pixel-art.js','artwork.js','app.js'])vm.runInContext(fs.readFileSync(path.join(dist,file),'utf8'),c,{filename:file});
+for(const file of ['pixel-art.js','artwork.js','helmet-artwork.js','app.js'])vm.runInContext(fs.readFileSync(path.join(dist,file),'utf8'),c,{filename:file});
 assert.deepEqual(errors,[]);assert.ok(node('#main').innerHTML.includes('AFTER SINGAPORE GRAND PRIX'));
 const markup={},checks=[];
 function nav(route){c.location.hash='#/'+route;handlers['window:hashchange']();const html=node('#main').innerHTML;assert.ok(!html.includes('CARTRIDGE NOT READY'));return markup[route||'dashboard']=html}
@@ -23,6 +23,14 @@ nav('driver/tsunoda');assert.ok(node('#main').innerHTML.includes('NOT ENTERED'))
 nav('race/singapore');assert.ok(node('#main').innerHTML.includes('1:42:00.785'));assert.ok(!node('#main').innerHTML.includes('data-countdown'));
 for(const session of ['qualifying','sprint','race']){click({session});assert.equal((node('#session-results').innerHTML.match(/<tr>/g)||[]).length,23);assert.ok(node('.race-classification .panel-foot a').href.endsWith(session==='race'?'race-result':session==='sprint'?'sprint-results':'qualifying'));assert.ok(node('#session-date').textContent.startsWith(session==='race'?'11':'10'))}
 checks.push('All 23 race routes render; race, Sprint and qualifying tabs each show 22 rows with their matching source and date.');
+nav('driver/hamilton');assert.ok(node('#main').innerHTML.includes('1:31.496'));assert.ok(node('#main').innerHTML.includes('+45.853s'));assert.ok(node('#main').innerHTML.includes('assets/art/helmets-a.webp'));
+click({driverTab:'strategy'});assert.ok(node('#driver-weekend-view').innerHTML.includes('24.048s'));assert.ok(node('#driver-weekend-view').innerHTML.includes('stationary tyre-change'));
+click({driverTab:'radio'});assert.ok(node('#driver-weekend-view').innerHTML.includes('Sorry boys'));assert.ok(node('#driver-weekend-view').innerHTML.includes('Audio recording not captured'));
+click({driverTab:'story'});assert.ok(node('#driver-weekend-view').innerHTML.includes('THE CRITICAL TAKE'));assert.ok(node('#driver-weekend-view').innerHTML.includes('SUBJECTIVE'));
+nav('driver/gasly');click({driverTab:'radio'});assert.ok(node('#driver-weekend-view').innerHTML.includes('NO VERIFIED RADIO'));
+for(const d of data.drivers){nav('driver/'+d.id);for(const tab of ['timing','strategy','radio','story']){click({driverTab:tab});assert.ok(node('#driver-weekend-view').innerHTML.length>150,d.id+' '+tab);}}
+assert.equal(Object.keys(c.window.PADDOCK_HELMET_ART.people).length,23);
+checks.push('All 22 current driver dossiers render timing, strategy, radio and AI story; helmet mapping, teammate deltas and missing-radio states pass.');
 nav('drivers');handlers.input({target:{id:'search',value:'hamilton'}});assert.equal((node('#driver-slots').innerHTML.match(/data-select-driver=/g)||[]).length,1);assert.ok(node('#driver-preview').innerHTML.includes('Hamilton'));
 handlers.input({target:{id:'search',value:'nothingmatcheszzz'}});assert.ok(node('#driver-slots').innerHTML.includes('NO DRIVER FOUND'));
 nav('drivers');handlers.change({target:{id:'team-filter',value:'ferrari'}});assert.equal((node('#driver-slots').innerHTML.match(/data-select-driver=/g)||[]).length,2);
@@ -43,4 +51,4 @@ checks.push('Standings, points, roster links, content tags and 36 six-frame artw
 const css=fs.readFileSync(path.join(dist,'style.css'),'utf8');assert.equal((css.match(/{/g)||[]).length,(css.match(/}/g)||[]).length);assert.ok(css.includes('prefers-reduced-motion:reduce'));assert.ok(css.includes('background-size:600% 300%'));assert.ok(css.includes('100%{background-position-x:0%}'));
 checks.push('Pixel CSS has balanced blocks, six-frame timing, responsive breakpoints and reduced-motion overrides.');
 fs.mkdirSync(path.join(root,'qa-artifacts'),{recursive:true});fs.writeFileSync(path.join(root,'qa-artifacts/rendered-routes.json'),JSON.stringify(markup));
-const report={executedAt:new Date().toISOString(),revision:4,status:'Source, template and handler checks passed; browser rendering unverified',profiles,animatedPeople:36,frames:216,checks,browserChecks:'Chromium launch blocked by sandbox; no layout, mobile overflow or browser persistence claim.',screenshots:[]};fs.writeFileSync(path.join(root,'qa-artifacts/retro-checks.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
+const report={executedAt:new Date().toISOString(),revision:5,status:'Source, template and handler checks passed; browser rendering unverified',profiles,animatedPeople:36,frames:216,checks,browserChecks:'Chromium launch blocked by sandbox; no layout, mobile overflow or browser persistence claim.',screenshots:[]};fs.writeFileSync(path.join(root,'qa-artifacts/retro-checks.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
