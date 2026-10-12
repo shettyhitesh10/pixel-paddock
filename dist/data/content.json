@@ -1,0 +1,2760 @@
+{
+  "meta": {
+    "season": 2026,
+    "standingsSeason": 2026,
+    "standingsRound": 17,
+    "updatedAt": "2026-10-12T04:24:00Z",
+    "status": "Official classification and standings after the Singapore Grand Prix, 11 October 2026.",
+    "sources": [
+      {
+        "name": "Official F1 driver standings",
+        "url": "https://www.formula1.com/en/results/2026/drivers"
+      },
+      {
+        "name": "Official F1 team standings",
+        "url": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "name": "Official F1 calendar",
+        "url": "https://www.formula1.com/en/racing/2026"
+      },
+      {
+        "name": "Official F1 current drivers",
+        "url": "https://www.formula1.com/en/drivers"
+      },
+      {
+        "name": "Official F1 leadership",
+        "url": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K"
+      },
+      {
+        "name": "Singapore Sprint classification",
+        "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/sprint-results"
+      },
+      {
+        "name": "Singapore qualifying classification",
+        "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying"
+      },
+      {
+        "name": "Latest Grand Prix classification",
+        "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+      }
+    ],
+    "communityStatus": "Five public comments rechecked against their Reddit permalinks. Authors and text verified; exact publication timestamps unavailable from the fetched pages. Context: Singapore Friday sessions, 9 October.",
+    "completedGrandPrixCount": 17,
+    "currentRound": 17,
+    "standingsSession": "Singapore Grand Prix",
+    "standingsSessionDate": "2026-10-11",
+    "currentDriverCount": 22,
+    "classifiedDriverCount": 23,
+    "leadershipCount": 13,
+    "sectionFreshness": {
+      "standings": {
+        "fetchedAt": "2026-10-12T04:24:00Z",
+        "sourcePublishedAt": null,
+        "session": "Singapore Grand Prix · 11 October 2026",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/drivers",
+          "https://www.formula1.com/en/results/2026/team",
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+        ],
+        "verification": "observed",
+        "note": "Official post-race classification and championship tables checked on 12 October 2026."
+      },
+      "roster": {
+        "fetchedAt": "2026-10-11T04:40:00Z",
+        "sourcePublishedAt": null,
+        "session": null,
+        "sourceUrls": [
+          "https://www.formula1.com/en/drivers",
+          "https://www.formula1.com/en/teams"
+        ],
+        "verification": "observed",
+        "note": "22 current drivers; 23 season-classified drivers. Individual dates of birth checked on official driver profiles."
+      },
+      "leadership": {
+        "fetchedAt": "2026-10-11T04:40:00Z",
+        "sourcePublishedAt": "2026-08-27T00:00:00Z",
+        "session": null,
+        "sourceUrls": [
+          "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K"
+        ],
+        "verification": "observed",
+        "note": "13 named leaders across 11 teams. Role titles retained; Alpine does not have a named Team Principal in this source."
+      },
+      "calendar": {
+        "fetchedAt": "2026-10-11T04:40:00Z",
+        "sourcePublishedAt": null,
+        "session": "Round 17 Singapore, race scheduled 11 October 2026 12:00 UTC",
+        "sourceUrls": [
+          "https://www.formula1.com/en/racing/2026",
+          "https://www.formula1.com/en/racing/2026/singapore",
+          "https://www.formula1.com/en/racing/2026/las-vegas"
+        ],
+        "verification": "observed",
+        "note": "Official calendar lists 23 rounds. Dynamic calendar publication timestamp is not shown. UTC dates can differ from local dates."
+      },
+      "news": {
+        "fetchedAt": "2026-10-12T04:24:00Z",
+        "sourcePublishedAt": "2026-10-11T16:09:00Z",
+        "session": "Singapore post-race news · 11 October 2026",
+        "sourceUrls": [
+          "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A",
+          "https://www.formula1.com/en/latest/article/it-was-a-mistake-vasseur-reacts-to-hamiltons-strategy-call-that-lost-a-podium-in-singapore.7FetC3ZueATDEKBKuuy4V",
+          "https://www.formula1.com/en/latest/article/can-i-really-antonelli-reacts-as-he-gives-himself-first-chance-of-sealing-world-title-after-singapore-podium.2BhiC6Exd2Jtm9uT3xZ2Rb",
+          "https://www.formula1.com/en/latest"
+        ],
+        "verification": "observed",
+        "note": "Three post-race reports checked on 12 October. Older stories retain their own publication and verification dates."
+      },
+      "comments": {
+        "fetchedAt": "2026-10-11T04:40:00Z",
+        "sourcePublishedAt": null,
+        "session": "Singapore Friday sessions · 9 October 2026",
+        "sourceUrls": [
+          "https://www.reddit.com/r/formula1/comments/1x1mmp3/comment/peuro7s/",
+          "https://www.reddit.com/r/formula1/comments/1x1mmp3/comment/peuruwg/",
+          "https://www.reddit.com/r/formula1/comments/1x1mmp3/comment/peurwh1/",
+          "https://www.reddit.com/r/formula1/comments/1x1gzpx/comment/pethurk/",
+          "https://www.reddit.com/r/formula1/comments/1x1gzpx/comment/petcwbx/"
+        ],
+        "verification": "observed",
+        "note": "Exact comment publication time not exposed; do not label retrieval as publication."
+      },
+      "results": {
+        "fetchedAt": "2026-10-12T04:24:00Z",
+        "sourcePublishedAt": null,
+        "session": "Singapore Grand Prix · 11 October 2026",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+        ],
+        "verification": "observed",
+        "note": "Official post-race classification and championship tables checked on 12 October 2026."
+      },
+      "sprintResults": {
+        "fetchedAt": "2026-10-11T04:40:00Z",
+        "sourcePublishedAt": null,
+        "session": "Singapore Sprint · 10 October 2026",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/sprint-results"
+        ],
+        "verification": "observed",
+        "note": null
+      },
+      "qualifyingResults": {
+        "fetchedAt": "2026-10-11T04:40:00Z",
+        "sourcePublishedAt": null,
+        "session": "Singapore qualifying · 10 October 2026",
+        "sourceUrls": [
+          "https://www.formula1.com/en/results/2026/races/1296/singapore/qualifying"
+        ],
+        "verification": "observed",
+        "note": null
+      }
+    }
+  },
+  "drivers": [
+    {
+      "id": "antonelli",
+      "name": "Kimi Antonelli",
+      "number": 12,
+      "code": "ANT",
+      "nationality": "Italian",
+      "flag": "🇮🇹",
+      "dateOfBirth": "2006-08-25",
+      "teamId": "mercedes",
+      "bio": "Kimi Antonelli races for Mercedes in 2026. After the Singapore Grand Prix: P1, 340 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/kimi-antonelli",
+      "animation": {
+        "type": "wave",
+        "label": "Grid wave"
+      },
+      "appearance": {
+        "skin": "#e7b994",
+        "hair": "#3c2a20",
+        "hairStyle": "curly",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "russell",
+      "name": "George Russell",
+      "number": 63,
+      "code": "RUS",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "dateOfBirth": "1998-02-15",
+      "teamId": "mercedes",
+      "bio": "George Russell races for Mercedes in 2026. After the Singapore Grand Prix: P2, 238 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/george-russell",
+      "animation": {
+        "type": "celebrate",
+        "label": "The T-pose"
+      },
+      "appearance": {
+        "skin": "#ecc1a2",
+        "hair": "#6a4832",
+        "hairStyle": "swept",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "hamilton",
+      "name": "Lewis Hamilton",
+      "number": 44,
+      "code": "HAM",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "dateOfBirth": "1985-01-07",
+      "teamId": "ferrari",
+      "bio": "Lewis Hamilton races for Ferrari in 2026. After the Singapore Grand Prix: P3, 229 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/lewis-hamilton",
+      "animation": {
+        "type": "dance",
+        "label": "Podium groove"
+      },
+      "appearance": {
+        "skin": "#995e3d",
+        "hair": "#201915",
+        "hairStyle": "braids",
+        "facialHair": "beard",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "leclerc",
+      "name": "Charles Leclerc",
+      "number": 16,
+      "code": "LEC",
+      "nationality": "Monegasque",
+      "flag": "🇲🇨",
+      "dateOfBirth": "1997-10-16",
+      "teamId": "ferrari",
+      "bio": "Charles Leclerc races for Ferrari in 2026. After the Singapore Grand Prix: P5, 215 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/charles-leclerc",
+      "animation": {
+        "type": "nod",
+        "label": "The knowing nod"
+      },
+      "appearance": {
+        "skin": "#d7a781",
+        "hair": "#4c2e21",
+        "hairStyle": "swept",
+        "facialHair": "stubble",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "norris",
+      "name": "Lando Norris",
+      "number": 1,
+      "code": "NOR",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "dateOfBirth": "1999-11-13",
+      "teamId": "mclaren",
+      "bio": "Lando Norris races for McLaren in 2026. After the Singapore Grand Prix: P6, 201 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/lando-norris",
+      "animation": {
+        "type": "shrug",
+        "label": "The Lando shrug"
+      },
+      "appearance": {
+        "skin": "#dfb494",
+        "hair": "#65432f",
+        "hairStyle": "curly",
+        "facialHair": "stubble",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "max_verstappen",
+      "name": "Max Verstappen",
+      "number": 3,
+      "code": "VER",
+      "nationality": "Dutch",
+      "flag": "🇳🇱",
+      "dateOfBirth": "1997-09-30",
+      "teamId": "red_bull",
+      "bio": "Max Verstappen races for Red Bull Racing in 2026. After the Singapore Grand Prix: P4, 221 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/max-verstappen",
+      "animation": {
+        "type": "point",
+        "label": "Number one"
+      },
+      "appearance": {
+        "skin": "#e4b797",
+        "hair": "#6d5039",
+        "hairStyle": "short",
+        "facialHair": "stubble",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "piastri",
+      "name": "Oscar Piastri",
+      "number": 81,
+      "code": "PIA",
+      "nationality": "Australian",
+      "flag": "🇦🇺",
+      "dateOfBirth": "2001-04-06",
+      "teamId": "mclaren",
+      "bio": "Oscar Piastri races for McLaren in 2026. After the Singapore Grand Prix: P7, 138 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/oscar-piastri",
+      "animation": {
+        "type": "nod",
+        "label": "Ice-cool nod"
+      },
+      "appearance": {
+        "skin": "#edc5aa",
+        "hair": "#53382a",
+        "hairStyle": "swept",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "hadjar",
+      "name": "Isack Hadjar",
+      "number": 6,
+      "code": "HAD",
+      "nationality": "French",
+      "flag": "🇫🇷",
+      "dateOfBirth": "2004-09-28",
+      "teamId": "red_bull",
+      "bio": "Isack Hadjar races for Red Bull Racing in 2026. After the Singapore Grand Prix: P8, 97 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/isack-hadjar",
+      "animation": {
+        "type": "celebrate",
+        "label": "Podium punch"
+      },
+      "appearance": {
+        "skin": "#c99165",
+        "hair": "#2f241d",
+        "hairStyle": "curly",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "lawson",
+      "name": "Liam Lawson",
+      "number": 30,
+      "code": "LAW",
+      "nationality": "New Zealander",
+      "flag": "🇳🇿",
+      "dateOfBirth": "2002-02-11",
+      "teamId": "rb",
+      "bio": "Liam Lawson races for Racing Bulls in 2026. After the Singapore Grand Prix: P9, 75 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/liam-lawson",
+      "animation": {
+        "type": "wave",
+        "label": "Grid wave"
+      },
+      "appearance": {
+        "skin": "#e9bd9a",
+        "hair": "#af8754",
+        "hairStyle": "swept",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "gasly",
+      "name": "Pierre Gasly",
+      "number": 10,
+      "code": "GAS",
+      "nationality": "French",
+      "flag": "🇫🇷",
+      "dateOfBirth": "1996-02-07",
+      "teamId": "alpine",
+      "bio": "Pierre Gasly races for Alpine in 2026. After the Singapore Grand Prix: P10, 41 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/pierre-gasly",
+      "animation": {
+        "type": "celebrate",
+        "label": "Allez!"
+      },
+      "appearance": {
+        "skin": "#d5a482",
+        "hair": "#795234",
+        "hairStyle": "short",
+        "facialHair": "beard",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "arvid_lindblad",
+      "name": "Arvid Lindblad",
+      "number": 41,
+      "code": "LIN",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "dateOfBirth": "2007-08-08",
+      "teamId": "rb",
+      "bio": "Arvid Lindblad races for Racing Bulls in 2026. After the Singapore Grand Prix: P11, 38 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/arvid-lindblad",
+      "animation": {
+        "type": "wave",
+        "label": "Rookie salute"
+      },
+      "appearance": {
+        "skin": "#bb855f",
+        "hair": "#30231b",
+        "hairStyle": "curly",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "colapinto",
+      "name": "Franco Colapinto",
+      "number": 43,
+      "code": "COL",
+      "nationality": "Argentine",
+      "flag": "🇦🇷",
+      "dateOfBirth": "2003-05-27",
+      "teamId": "alpine",
+      "bio": "Franco Colapinto races for Alpine in 2026. After the Singapore Grand Prix: P12, 27 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/franco-colapinto",
+      "animation": {
+        "type": "shuffle",
+        "label": "Vamos shuffle"
+      },
+      "appearance": {
+        "skin": "#d3a17b",
+        "hair": "#4c3022",
+        "hairStyle": "wavy",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "bearman",
+      "name": "Oliver Bearman",
+      "number": 87,
+      "code": "BEA",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "dateOfBirth": "2005-05-08",
+      "teamId": "haas",
+      "bio": "Oliver Bearman races for Haas F1 Team in 2026. After the Singapore Grand Prix: P13, 23 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/oliver-bearman",
+      "animation": {
+        "type": "wave",
+        "label": "Ollie wave"
+      },
+      "appearance": {
+        "skin": "#e6bca0",
+        "hair": "#4c2e21",
+        "hairStyle": "curly",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "bortoleto",
+      "name": "Gabriel Bortoleto",
+      "number": 5,
+      "code": "BOR",
+      "nationality": "Brazilian",
+      "flag": "🇧🇷",
+      "dateOfBirth": "2004-10-14",
+      "teamId": "audi",
+      "bio": "Gabriel Bortoleto races for Audi in 2026. After the Singapore Grand Prix: P15, 10 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/gabriel-bortoleto",
+      "animation": {
+        "type": "celebrate",
+        "label": "Victory lift"
+      },
+      "appearance": {
+        "skin": "#d8a77f",
+        "hair": "#3f2c20",
+        "hairStyle": "wavy",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "hulkenberg",
+      "name": "Nico Hülkenberg",
+      "number": 27,
+      "code": "HUL",
+      "nationality": "German",
+      "flag": "🇩🇪",
+      "dateOfBirth": "1987-08-19",
+      "teamId": "audi",
+      "bio": "Nico Hülkenberg races for Audi in 2026. After the Singapore Grand Prix: P14, 13 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/nico-hulkenberg",
+      "animation": {
+        "type": "point",
+        "label": "Hulk points"
+      },
+      "appearance": {
+        "skin": "#e2b493",
+        "hair": "#a27d49",
+        "hairStyle": "short",
+        "facialHair": "stubble",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "ocon",
+      "name": "Esteban Ocon",
+      "number": 31,
+      "code": "OCO",
+      "nationality": "French",
+      "flag": "🇫🇷",
+      "dateOfBirth": "1996-09-17",
+      "teamId": "haas",
+      "bio": "Esteban Ocon races for Haas F1 Team in 2026. After the Singapore Grand Prix: P16, 7 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/esteban-ocon",
+      "animation": {
+        "type": "wave",
+        "label": "Finish-line wave"
+      },
+      "appearance": {
+        "skin": "#dfb08c",
+        "hair": "#32241c",
+        "hairStyle": "short",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "alonso",
+      "name": "Fernando Alonso",
+      "number": 14,
+      "code": "ALO",
+      "nationality": "Spanish",
+      "flag": "🇪🇸",
+      "dateOfBirth": "1981-07-29",
+      "teamId": "aston_martin",
+      "bio": "Fernando Alonso races for Aston Martin in 2026. After the Singapore Grand Prix: P17, 7 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/fernando-alonso",
+      "animation": {
+        "type": "salute",
+        "label": "El Plan salute"
+      },
+      "appearance": {
+        "skin": "#c4916d",
+        "hair": "#5c493c",
+        "hairStyle": "wavy",
+        "facialHair": "beard",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "sainz",
+      "name": "Carlos Sainz",
+      "number": 55,
+      "code": "SAI",
+      "nationality": "Spanish",
+      "flag": "🇪🇸",
+      "dateOfBirth": "1994-09-01",
+      "teamId": "williams",
+      "bio": "Carlos Sainz races for Williams in 2026. After the Singapore Grand Prix: P18, 7 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/carlos-sainz",
+      "animation": {
+        "type": "dance",
+        "label": "Smooth operator"
+      },
+      "appearance": {
+        "skin": "#c99168",
+        "hair": "#2f2119",
+        "hairStyle": "wavy",
+        "facialHair": "stubble",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "albon",
+      "name": "Alexander Albon",
+      "number": 23,
+      "code": "ALB",
+      "nationality": "Thai",
+      "flag": "🇹🇭",
+      "dateOfBirth": "1996-03-23",
+      "teamId": "williams",
+      "bio": "Alexander Albon races for Williams in 2026. After the Singapore Grand Prix: P19, 5 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/alexander-albon",
+      "animation": {
+        "type": "wave",
+        "label": "Alex wave"
+      },
+      "appearance": {
+        "skin": "#c99570",
+        "hair": "#231b18",
+        "hairStyle": "short",
+        "facialHair": "none",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "stroll",
+      "name": "Lance Stroll",
+      "number": 18,
+      "code": "STR",
+      "nationality": "Canadian",
+      "flag": "🇨🇦",
+      "dateOfBirth": "1998-10-29",
+      "teamId": "aston_martin",
+      "bio": "Lance Stroll races for Aston Martin in 2026. After the Singapore Grand Prix: P21, 0 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/lance-stroll",
+      "animation": {
+        "type": "nod",
+        "label": "Grid-ready nod"
+      },
+      "appearance": {
+        "skin": "#d5a17b",
+        "hair": "#3a291f",
+        "hairStyle": "swept",
+        "facialHair": "stubble",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "bottas",
+      "name": "Valtteri Bottas",
+      "number": 77,
+      "code": "BOT",
+      "nationality": "Finnish",
+      "flag": "🇫🇮",
+      "dateOfBirth": "1989-08-28",
+      "teamId": "cadillac",
+      "bio": "Valtteri Bottas races for Cadillac in 2026. After the Singapore Grand Prix: P22, 0 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/valtteri-bottas",
+      "animation": {
+        "type": "shuffle",
+        "label": "Mullet shuffle"
+      },
+      "appearance": {
+        "skin": "#dfb493",
+        "hair": "#aa8c61",
+        "hairStyle": "mullet",
+        "facialHair": "moustache",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "perez",
+      "name": "Sergio Pérez",
+      "number": 11,
+      "code": "PER",
+      "nationality": "Mexican",
+      "flag": "🇲🇽",
+      "dateOfBirth": "1990-01-26",
+      "teamId": "cadillac",
+      "bio": "Sergio Pérez races for Cadillac in 2026. After the Singapore Grand Prix: P23, 0 championship points.",
+      "sourceUrl": "https://www.formula1.com/en/drivers/sergio-perez",
+      "animation": {
+        "type": "celebrate",
+        "label": "Vamos Checo"
+      },
+      "appearance": {
+        "skin": "#bd835b",
+        "hair": "#2c221b",
+        "hairStyle": "short",
+        "facialHair": "stubble",
+        "glasses": false
+      },
+      "currentGrid": true,
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": null
+    }
+  ],
+  "teams": [
+    {
+      "id": "mercedes",
+      "name": "Mercedes",
+      "shortName": "Mercedes",
+      "nationality": "German",
+      "flag": "🇩🇪",
+      "color": "#00D2BE",
+      "driverIds": [
+        "antonelli",
+        "russell"
+      ],
+      "principalId": "toto-wolff",
+      "bio": "P1 in the 2026 Teams’ Championship with 578 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/mercedes",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#111820",
+      "principalIds": [
+        "toto-wolff"
+      ],
+      "leadershipIds": [
+        "toto-wolff"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "ferrari",
+      "name": "Ferrari",
+      "shortName": "Ferrari",
+      "nationality": "Italian",
+      "flag": "🇮🇹",
+      "color": "#E80020",
+      "driverIds": [
+        "hamilton",
+        "leclerc"
+      ],
+      "principalId": "fred-vasseur",
+      "bio": "P2 in the 2026 Teams’ Championship with 444 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/ferrari",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#FFD700",
+      "principalIds": [
+        "fred-vasseur"
+      ],
+      "leadershipIds": [
+        "fred-vasseur"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "mclaren",
+      "name": "McLaren",
+      "shortName": "McLaren",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "color": "#FF8000",
+      "driverIds": [
+        "norris",
+        "piastri"
+      ],
+      "principalId": "andrea-stella",
+      "bio": "P3 in the 2026 Teams’ Championship with 339 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/mclaren",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#161A20",
+      "principalIds": [
+        "andrea-stella"
+      ],
+      "leadershipIds": [
+        "andrea-stella"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "red_bull",
+      "name": "Red Bull Racing",
+      "shortName": "Red Bull Racing",
+      "nationality": "Austrian",
+      "flag": "🇦🇹",
+      "color": "#3671C6",
+      "driverIds": [
+        "max_verstappen",
+        "hadjar"
+      ],
+      "principalId": "laurent-mekies",
+      "bio": "P4 in the 2026 Teams’ Championship with 332 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/red-bull-racing",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#FFD700",
+      "principalIds": [
+        "laurent-mekies"
+      ],
+      "leadershipIds": [
+        "laurent-mekies"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "rb",
+      "name": "Racing Bulls",
+      "shortName": "Racing Bulls",
+      "nationality": "Italian",
+      "flag": "🇮🇹",
+      "color": "#6692FF",
+      "driverIds": [
+        "lawson",
+        "arvid_lindblad"
+      ],
+      "principalId": "alan-permane",
+      "bio": "P5 in the 2026 Teams’ Championship with 100 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/racing-bulls",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#FFFFFF",
+      "principalIds": [
+        "alan-permane"
+      ],
+      "leadershipIds": [
+        "alan-permane"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "alpine",
+      "name": "Alpine",
+      "shortName": "Alpine",
+      "nationality": "French",
+      "flag": "🇫🇷",
+      "color": "#00A1E8",
+      "driverIds": [
+        "gasly",
+        "colapinto"
+      ],
+      "principalId": "flavio-briatore",
+      "bio": "P6 in the 2026 Teams’ Championship with 68 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/alpine",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#FF87BC",
+      "principalIds": [
+        "flavio-briatore",
+        "steve-nielsen"
+      ],
+      "leadershipIds": [
+        "flavio-briatore",
+        "steve-nielsen"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "haas",
+      "name": "Haas F1 Team",
+      "shortName": "Haas F1 Team",
+      "nationality": "American",
+      "flag": "🇺🇸",
+      "color": "#D72736",
+      "driverIds": [
+        "bearman",
+        "ocon"
+      ],
+      "principalId": "ayao-komatsu",
+      "bio": "P7 in the 2026 Teams’ Championship with 30 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/haas",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#FFFFFF",
+      "principalIds": [
+        "ayao-komatsu"
+      ],
+      "leadershipIds": [
+        "ayao-komatsu"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "audi",
+      "name": "Audi",
+      "shortName": "Audi",
+      "nationality": "German",
+      "flag": "🇩🇪",
+      "color": "#F50537",
+      "driverIds": [
+        "bortoleto",
+        "hulkenberg"
+      ],
+      "principalId": "mattia-binotto",
+      "bio": "P8 in the 2026 Teams’ Championship with 23 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/audi",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#C7CCD1",
+      "principalIds": [
+        "mattia-binotto",
+        "allan-mcnish"
+      ],
+      "leadershipIds": [
+        "mattia-binotto",
+        "allan-mcnish"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "williams",
+      "name": "Williams",
+      "shortName": "Williams",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "color": "#005AFF",
+      "driverIds": [
+        "sainz",
+        "albon"
+      ],
+      "principalId": "james-vowles",
+      "bio": "P9 in the 2026 Teams’ Championship with 12 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/williams",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#FFFFFF",
+      "principalIds": [
+        "james-vowles"
+      ],
+      "leadershipIds": [
+        "james-vowles"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "aston_martin",
+      "name": "Aston Martin",
+      "shortName": "Aston Martin",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "color": "#006F62",
+      "driverIds": [
+        "alonso",
+        "stroll"
+      ],
+      "principalId": "adrian-newey",
+      "bio": "P10 in the 2026 Teams’ Championship with 7 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/aston-martin",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#CEDC00",
+      "principalIds": [
+        "adrian-newey"
+      ],
+      "leadershipIds": [
+        "adrian-newey"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "id": "cadillac",
+      "name": "Cadillac",
+      "shortName": "Cadillac",
+      "nationality": "American",
+      "flag": "🇺🇸",
+      "color": "#7C858C",
+      "driverIds": [
+        "bottas",
+        "perez"
+      ],
+      "principalId": "marcin-budkowski",
+      "bio": "P11 in the 2026 Teams’ Championship with 0 points after the Singapore Grand Prix.",
+      "sourceUrl": "https://www.formula1.com/en/teams/cadillac",
+      "animation": {
+        "type": "drive",
+        "label": "Pit-lane roll"
+      },
+      "accentColor": "#C8A96B",
+      "principalIds": [
+        "marcin-budkowski"
+      ],
+      "leadershipIds": [
+        "marcin-budkowski"
+      ],
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    }
+  ],
+  "principals": [
+    {
+      "id": "toto-wolff",
+      "name": "Toto Wolff",
+      "nationality": "Austrian",
+      "flag": "🇦🇹",
+      "teamId": "mercedes",
+      "bio": "Toto Wolff — Team Principal & CEO at Mercedes.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal & CEO",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "fred-vasseur",
+      "name": "Fred Vasseur",
+      "nationality": "French",
+      "flag": "🇫🇷",
+      "teamId": "ferrari",
+      "bio": "Fred Vasseur — Team Principal at Ferrari.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "andrea-stella",
+      "name": "Andrea Stella",
+      "nationality": "Italian",
+      "flag": "🇮🇹",
+      "teamId": "mclaren",
+      "bio": "Andrea Stella — Team Principal at McLaren.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "laurent-mekies",
+      "name": "Laurent Mekies",
+      "nationality": "French",
+      "flag": "🇫🇷",
+      "teamId": "red_bull",
+      "bio": "Laurent Mekies — Team Principal at Red Bull Racing.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "alan-permane",
+      "name": "Alan Permane",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "teamId": "rb",
+      "bio": "Alan Permane — Team Principal at Racing Bulls.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "flavio-briatore",
+      "name": "Flavio Briatore",
+      "nationality": "Italian",
+      "flag": "🇮🇹",
+      "teamId": "alpine",
+      "bio": "Flavio Briatore — Executive Advisor at Alpine.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Executive Advisor",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "ayao-komatsu",
+      "name": "Ayao Komatsu",
+      "nationality": "Japanese",
+      "flag": "🇯🇵",
+      "teamId": "haas",
+      "bio": "Ayao Komatsu — Team Principal at Haas F1 Team.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "mattia-binotto",
+      "name": "Mattia Binotto",
+      "nationality": "Italian",
+      "flag": "🇮🇹",
+      "teamId": "audi",
+      "bio": "Mattia Binotto — Team Principal at Audi.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "james-vowles",
+      "name": "James Vowles",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "teamId": "williams",
+      "bio": "James Vowles — Team Principal at Williams.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "adrian-newey",
+      "name": "Adrian Newey",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "teamId": "aston_martin",
+      "bio": "Adrian Newey — Team Principal & Managing Technical Partner at Aston Martin.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal & Managing Technical Partner",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "marcin-budkowski",
+      "name": "Marcin Budkowski",
+      "nationality": "Polish",
+      "flag": "🇵🇱",
+      "teamId": "cadillac",
+      "bio": "Marcin Budkowski — Team Principal at Cadillac.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      },
+      "role": "Team Principal",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z"
+    },
+    {
+      "id": "steve-nielsen",
+      "name": "Steve Nielsen",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "teamId": "alpine",
+      "role": "Managing Director",
+      "bio": "Oversees Alpine’s day-to-day operations and reports to Executive Advisor Flavio Briatore.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      }
+    },
+    {
+      "id": "allan-mcnish",
+      "name": "Allan McNish",
+      "nationality": "British",
+      "flag": "🇬🇧",
+      "teamId": "audi",
+      "role": "Racing Director",
+      "bio": "Leads Audi’s trackside operations and reports to Mattia Binotto.",
+      "sourceUrl": "https://www.formula1.com/en/latest/article/who-are-the-2026-team-principals.2Jrw5LEJbEoX2gM5OtFL8K",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "sourcePublishedAt": "2026-08-27T00:00:00Z",
+      "animation": {
+        "type": "nod",
+        "label": "Pit-wall call"
+      }
+    }
+  ],
+  "standings": {
+    "drivers": [
+      {
+        "driverId": "antonelli",
+        "position": 1,
+        "points": 340,
+        "wins": 8,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "russell",
+        "position": 2,
+        "points": 238,
+        "wins": 3,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "hamilton",
+        "position": 3,
+        "points": 229,
+        "wins": 1,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "max_verstappen",
+        "position": 4,
+        "points": 221,
+        "wins": 2,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "leclerc",
+        "position": 5,
+        "points": 215,
+        "wins": 1,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "norris",
+        "position": 6,
+        "points": 201,
+        "wins": 2,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "piastri",
+        "position": 7,
+        "points": 138,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "hadjar",
+        "position": 8,
+        "points": 97,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "lawson",
+        "position": 9,
+        "points": 75,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "gasly",
+        "position": 10,
+        "points": 41,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "arvid_lindblad",
+        "position": 11,
+        "points": 38,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "colapinto",
+        "position": 12,
+        "points": 27,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "bearman",
+        "position": 13,
+        "points": 23,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "hulkenberg",
+        "position": 14,
+        "points": 13,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "bortoleto",
+        "position": 15,
+        "points": 10,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "ocon",
+        "position": 16,
+        "points": 7,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "alonso",
+        "position": 17,
+        "points": 7,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "sainz",
+        "position": 18,
+        "points": 7,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "albon",
+        "position": 19,
+        "points": 5,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "tsunoda",
+        "position": 20,
+        "points": 1,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": false
+      },
+      {
+        "driverId": "stroll",
+        "position": 21,
+        "points": 0,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "bottas",
+        "position": 22,
+        "points": 0,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      },
+      {
+        "driverId": "perez",
+        "position": 23,
+        "points": 0,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/drivers",
+        "activeOnCurrentGrid": true
+      }
+    ],
+    "teams": [
+      {
+        "teamId": "mercedes",
+        "position": 1,
+        "points": 578,
+        "wins": 11,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "ferrari",
+        "position": 2,
+        "points": 444,
+        "wins": 2,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "mclaren",
+        "position": 3,
+        "points": 339,
+        "wins": 2,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "red_bull",
+        "position": 4,
+        "points": 332,
+        "wins": 2,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "rb",
+        "position": 5,
+        "points": 100,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "alpine",
+        "position": 6,
+        "points": 68,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "haas",
+        "position": 7,
+        "points": 30,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "audi",
+        "position": 8,
+        "points": 23,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "williams",
+        "position": 9,
+        "points": 12,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "aston_martin",
+        "position": 10,
+        "points": 7,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      },
+      {
+        "teamId": "cadillac",
+        "position": 11,
+        "points": 0,
+        "wins": 0,
+        "sourceUrl": "https://www.formula1.com/en/results/2026/team"
+      }
+    ]
+  },
+  "calendar": [
+    {
+      "round": 1,
+      "name": "Australian Grand Prix",
+      "date": "2026-03-08",
+      "time": "04:00:00Z",
+      "circuit": "Albert Park Grand Prix Circuit",
+      "location": "Melbourne",
+      "country": "Australia",
+      "url": "https://www.formula1.com/en/racing/2026/australia",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-03-08",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 2,
+      "name": "Chinese Grand Prix",
+      "date": "2026-03-15",
+      "time": "07:00:00Z",
+      "circuit": "Shanghai International Circuit",
+      "location": "Shanghai",
+      "country": "China",
+      "url": "https://www.formula1.com/en/racing/2026/china",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-03-15",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 3,
+      "name": "Japanese Grand Prix",
+      "date": "2026-03-29",
+      "time": "05:00:00Z",
+      "circuit": "Suzuka Circuit",
+      "location": "Suzuka",
+      "country": "Japan",
+      "url": "https://www.formula1.com/en/racing/2026/japan",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-03-29",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 4,
+      "name": "Miami Grand Prix",
+      "date": "2026-05-03",
+      "time": "20:00:00Z",
+      "circuit": "Miami International Autodrome",
+      "location": "Miami",
+      "country": "USA",
+      "url": "https://www.formula1.com/en/racing/2026/miami",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-05-03",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 5,
+      "name": "Canadian Grand Prix",
+      "date": "2026-05-24",
+      "time": "20:00:00Z",
+      "circuit": "Circuit Gilles Villeneuve",
+      "location": "Montreal",
+      "country": "Canada",
+      "url": "https://www.formula1.com/en/racing/2026/canada",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-05-24",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 6,
+      "name": "Monaco Grand Prix",
+      "date": "2026-06-07",
+      "time": "13:00:00Z",
+      "circuit": "Circuit de Monaco",
+      "location": "Monte Carlo",
+      "country": "Monaco",
+      "url": "https://www.formula1.com/en/racing/2026/monaco",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-06-07",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 7,
+      "name": "Barcelona-Catalunya Grand Prix",
+      "date": "2026-06-14",
+      "time": "13:00:00Z",
+      "circuit": "Circuit de Barcelona-Catalunya",
+      "location": "Barcelona",
+      "country": "Spain",
+      "url": "https://www.formula1.com/en/racing/2026/barcelona-catalunya",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-06-14",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 8,
+      "name": "Austrian Grand Prix",
+      "date": "2026-06-28",
+      "time": "13:00:00Z",
+      "circuit": "Red Bull Ring",
+      "location": "Spielberg",
+      "country": "Austria",
+      "url": "https://www.formula1.com/en/racing/2026/austria",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-06-28",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 9,
+      "name": "British Grand Prix",
+      "date": "2026-07-05",
+      "time": "14:00:00Z",
+      "circuit": "Silverstone Circuit",
+      "location": "Silverstone",
+      "country": "UK",
+      "url": "https://www.formula1.com/en/racing/2026/great-britain",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-07-05",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 10,
+      "name": "Belgian Grand Prix",
+      "date": "2026-07-19",
+      "time": "13:00:00Z",
+      "circuit": "Circuit de Spa-Francorchamps",
+      "location": "Spa",
+      "country": "Belgium",
+      "url": "https://www.formula1.com/en/racing/2026/belgium",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-07-19",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 11,
+      "name": "Hungarian Grand Prix",
+      "date": "2026-07-26",
+      "time": "13:00:00Z",
+      "circuit": "Hungaroring",
+      "location": "Budapest",
+      "country": "Hungary",
+      "url": "https://www.formula1.com/en/racing/2026/hungary",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-07-26",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 12,
+      "name": "Dutch Grand Prix",
+      "date": "2026-08-23",
+      "time": "13:00:00Z",
+      "circuit": "Circuit Park Zandvoort",
+      "location": "Zandvoort",
+      "country": "Netherlands",
+      "url": "https://www.formula1.com/en/racing/2026/netherlands",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-08-23",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 13,
+      "name": "Italian Grand Prix",
+      "date": "2026-09-06",
+      "time": "13:00:00Z",
+      "circuit": "Autodromo Nazionale di Monza",
+      "location": "Monza",
+      "country": "Italy",
+      "url": "https://www.formula1.com/en/racing/2026/italy",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-09-06",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 14,
+      "name": "Spanish Grand Prix",
+      "date": "2026-09-13",
+      "time": "13:00:00Z",
+      "circuit": "Madring",
+      "location": "Madrid",
+      "country": "Spain",
+      "url": "https://www.formula1.com/en/racing/2026/spain",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-09-13",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 15,
+      "name": "Azerbaijan Grand Prix",
+      "date": "2026-09-26",
+      "time": "11:00:00Z",
+      "circuit": "Baku City Circuit",
+      "location": "Baku",
+      "country": "Azerbaijan",
+      "url": "https://www.formula1.com/en/racing/2026/azerbaijan",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-09-26",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 16,
+      "name": "Bahrain Grand Prix in Malaysia",
+      "date": "2026-10-04",
+      "time": "07:00:00Z",
+      "circuit": "Sepang International Circuit",
+      "location": "Kuala Lumpur",
+      "country": "Malaysia",
+      "url": "https://www.formula1.com/en/racing/2026/bahrain",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-10-04",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 17,
+      "name": "Singapore Grand Prix",
+      "date": "2026-10-11",
+      "time": "12:00:00Z",
+      "circuit": "Marina Bay Street Circuit",
+      "location": "Marina Bay",
+      "country": "Singapore",
+      "url": "https://www.formula1.com/en/racing/2026/singapore",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-10-11",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "completed"
+    },
+    {
+      "round": 18,
+      "name": "United States Grand Prix",
+      "date": "2026-10-25",
+      "time": "20:00:00Z",
+      "circuit": "Circuit of the Americas",
+      "location": "Austin",
+      "country": "USA",
+      "url": "https://www.formula1.com/en/racing/2026/united-states",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-10-25",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "upcoming"
+    },
+    {
+      "round": 19,
+      "name": "Mexico City Grand Prix",
+      "date": "2026-11-01",
+      "time": "20:00:00Z",
+      "circuit": "Autódromo Hermanos Rodríguez",
+      "location": "Mexico City",
+      "country": "Mexico",
+      "url": "https://www.formula1.com/en/racing/2026/mexico",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-11-01",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "upcoming"
+    },
+    {
+      "round": 20,
+      "name": "Brazilian Grand Prix",
+      "date": "2026-11-08",
+      "time": "17:00:00Z",
+      "circuit": "Autódromo José Carlos Pace",
+      "location": "São Paulo",
+      "country": "Brazil",
+      "url": "https://www.formula1.com/en/racing/2026/brazil",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-11-08",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "upcoming"
+    },
+    {
+      "round": 21,
+      "name": "Las Vegas Grand Prix",
+      "date": "2026-11-22",
+      "time": "04:00:00Z",
+      "circuit": "Las Vegas Strip Street Circuit",
+      "location": "Las Vegas",
+      "country": "USA",
+      "url": "https://www.formula1.com/en/racing/2026/las-vegas",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-11-21",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "upcoming"
+    },
+    {
+      "round": 22,
+      "name": "Qatar Grand Prix",
+      "date": "2026-11-29",
+      "time": "16:00:00Z",
+      "circuit": "Lusail International Circuit",
+      "location": "Lusail",
+      "country": "Qatar",
+      "url": "https://www.formula1.com/en/racing/2026/qatar",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-11-29",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "upcoming"
+    },
+    {
+      "round": 23,
+      "name": "Abu Dhabi Grand Prix",
+      "date": "2026-12-06",
+      "time": "13:00:00Z",
+      "circuit": "Yas Marina Circuit",
+      "location": "Abu Dhabi",
+      "country": "UAE",
+      "url": "https://www.formula1.com/en/racing/2026/abu-dhabi",
+      "sourceUrl": "https://www.formula1.com/en/racing/2026",
+      "dateBasis": "UTC",
+      "localRaceDate": "2026-12-06",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "status": "upcoming"
+    }
+  ],
+  "news": [
+    {
+      "id": "v4-postrace-vasseur",
+      "title": "Vasseur explains Ferrari’s missed podium opportunity",
+      "summary": "Hamilton stayed out during the Virtual Safety Car and fell to sixth as his tyres faded. Vasseur said the team had called both cars into the pits.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-11T16:09:00Z",
+      "url": "https://www.formula1.com/en/latest/article/it-was-a-mistake-vasseur-reacts-to-hamiltons-strategy-call-that-lost-a-podium-in-singapore.7FetC3ZueATDEKBKuuy4V",
+      "tags": [
+        "fred-vasseur",
+        "ferrari",
+        "hamilton"
+      ],
+      "category": "Pit-wall reaction",
+      "verifiedAt": "2026-10-12T04:24:00Z",
+      "eventDate": "2026-10-11"
+    },
+    {
+      "id": "v4-postrace-title",
+      "title": "Antonelli takes a 102-point lead to Austin",
+      "summary": "Third place in Singapore extended Antonelli’s championship advantage over Russell. He now has a mathematical chance of securing the title at the next round.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-11T15:37:00Z",
+      "url": "https://www.formula1.com/en/latest/article/can-i-really-antonelli-reacts-as-he-gives-himself-first-chance-of-sealing-world-title-after-singapore-podium.2BhiC6Exd2Jtm9uT3xZ2Rb",
+      "tags": [
+        "antonelli",
+        "russell",
+        "mercedes"
+      ],
+      "category": "Title fight",
+      "verifiedAt": "2026-10-12T04:24:00Z",
+      "eventDate": "2026-10-11"
+    },
+    {
+      "id": "v4-postrace-race",
+      "title": "Verstappen completes a winning Singapore weekend",
+      "summary": "Verstappen won ahead of Leclerc and Antonelli. Norris and Piastri finished fourth and fifth, with Hamilton sixth.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-11T14:06:00Z",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A",
+      "tags": [
+        "max_verstappen",
+        "red_bull",
+        "leclerc",
+        "ferrari",
+        "antonelli",
+        "mercedes",
+        "norris",
+        "piastri",
+        "mclaren"
+      ],
+      "category": "Race report",
+      "verifiedAt": "2026-10-12T04:24:00Z",
+      "eventDate": "2026-10-11"
+    },
+    {
+      "id": "v4-stella",
+      "title": "Stella addresses McLaren’s costly Sprint collision",
+      "summary": "Andrea Stella says the team must prevent a repeat after Norris and Piastri collided on the final lap in Singapore.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-10T18:18:00Z",
+      "url": "https://www.formula1.com/en/latest/article/it-is-serious-stella-disappointed-by-norris-and-piastris-clash-in-singapore-sprint.7hW2cxQgohHZfu4wgvtfRQ",
+      "tags": [
+        "mclaren",
+        "andrea-stella",
+        "norris",
+        "piastri"
+      ],
+      "category": "Team response",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "eventDate": "2026-10-10"
+    },
+    {
+      "id": "v4-russell",
+      "title": "Russell searches for lost pace after Sprint crash",
+      "summary": "Mercedes repaired his car for qualifying, where he placed sixth. An engine-related penalty sends him to the back for the Grand Prix.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-10T16:46:00Z",
+      "url": "https://www.formula1.com/en/latest/article/didnt-feel-the-same-russell-trying-to-understand-lack-of-pace-in-singapore-gp-qualifying.1sLY17kQLqTBgyoTRUQOHo",
+      "tags": [
+        "russell",
+        "mercedes"
+      ],
+      "category": "Driver reaction",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "eventDate": "2026-10-10"
+    },
+    {
+      "id": "v4-hadjar",
+      "title": "Gearbox trouble leaves Hadjar without a qualifying time",
+      "summary": "After retiring from the Sprint, Hadjar encountered another mechanical problem and could not complete a timed qualifying lap.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-10T16:20:00Z",
+      "url": "https://www.formula1.com/en/latest/article/hadjar-really-p-d-to-miss-out-on-singapore-qualifying-as-reliability-woes-continue.4kqEILdQ3b5m391JE11XXy",
+      "tags": [
+        "hadjar",
+        "red_bull",
+        "laurent-mekies"
+      ],
+      "category": "Reliability",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "eventDate": "2026-10-10"
+    },
+    {
+      "id": "v4-antonelli",
+      "title": "Antonelli finds progress with Mercedes’ upgrade",
+      "summary": "Setup changes helped the championship leader qualify fourth after finishing fourth in the Sprint.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-10T16:10:00Z",
+      "url": "https://www.formula1.com/en/latest/article/antonelli-now-seeing-the-potential-in-mercedes-upgrades-after-better-day-in-singapore.1BdEq0Y4u9ZIr3eSyJWhes",
+      "tags": [
+        "antonelli",
+        "mercedes"
+      ],
+      "category": "Development",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "eventDate": "2026-10-10"
+    },
+    {
+      "id": "v4-leclerc",
+      "title": "Leclerc falls 0.054 seconds short of Singapore pole",
+      "summary": "The Ferrari driver qualified second ahead of Hamilton and said there was still time left in his final lap.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-10T15:57:00Z",
+      "url": "https://www.formula1.com/en/latest/article/i-had-a-lot-of-struggles-leclerc-reveals-misjudgement-that-cost-him-singapore-pole.10ZX0dKhEvCzFcqEfu3M0m",
+      "tags": [
+        "leclerc",
+        "hamilton",
+        "ferrari"
+      ],
+      "category": "Qualifying reaction",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "eventDate": "2026-10-10"
+    },
+    {
+      "id": "v4-qualifying",
+      "title": "Verstappen takes Singapore pole ahead of both Ferraris",
+      "summary": "A 1:31.373 lap put Verstappen ahead of Leclerc and Hamilton. Antonelli and Norris completed the top five in qualifying.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-10T14:46:00Z",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-beats-leclerc-to-pole-position-for-the-singapore-gp.7yum1V3S9aSTyj3Zzzs0Y9",
+      "tags": [
+        "max_verstappen",
+        "red_bull",
+        "leclerc",
+        "hamilton",
+        "ferrari"
+      ],
+      "category": "Qualifying",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "eventDate": "2026-10-10"
+    },
+    {
+      "id": "v4-stewards",
+      "title": "No further action over the McLaren Sprint collision",
+      "summary": "Stewards found both drivers contributed to the clash. Piastri retired; Norris recovered to finish eighth.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-10T13:57:00Z",
+      "url": "https://www.formula1.com/en/latest/article/stewards-reach-verdict-after-mclaren-intra-team-collision-in-singapore-gp-sprint.2LEoxWh3e7IEg674uCdLQ5",
+      "tags": [
+        "norris",
+        "piastri",
+        "mclaren"
+      ],
+      "category": "Stewards",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "eventDate": "2026-10-10"
+    },
+    {
+      "id": "v4-sprint",
+      "title": "Verstappen wins wet Singapore Sprint",
+      "summary": "Hamilton and Leclerc joined him in the top three after Russell crashed out. Antonelli took five points for fourth.",
+      "source": "Formula1.com",
+      "publishedAt": "2026-10-10T10:30:00Z",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-wins-dramatic-rain-hit-singapore-sprint-as-russell-crashes-and-mclarens-collide.4r90mH2skljBa5sinFAsyp",
+      "tags": [
+        "max_verstappen",
+        "hamilton",
+        "leclerc",
+        "antonelli",
+        "russell",
+        "red_bull",
+        "ferrari",
+        "mercedes"
+      ],
+      "category": "Sprint",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "eventDate": "2026-10-10"
+    }
+  ],
+  "comments": [
+    {
+      "id": "peuro7s",
+      "author": "jithu7",
+      "text": "Russell matching Max on the used softs. Will be a banger tomorrow.",
+      "source": "Reddit · r/formula1",
+      "publishedAt": null,
+      "url": "https://www.reddit.com/r/formula1/comments/1x1mmp3/comment/peuro7s/",
+      "tags": [
+        "russell",
+        "max_verstappen",
+        "mercedes",
+        "red_bull"
+      ],
+      "contextDate": "2026-10-09",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "dateLabel": "Friday session discussion",
+      "verificationStatus": "Author, text and permalink verified",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "peuruwg",
+      "author": "InvestigatorNo9832",
+      "text": "ferrari's corner advantage seems to have evaporated, they are losing too much time on the straights to make the time up",
+      "source": "Reddit · r/formula1",
+      "publishedAt": null,
+      "url": "https://www.reddit.com/r/formula1/comments/1x1mmp3/comment/peuruwg/",
+      "tags": [
+        "ferrari",
+        "leclerc",
+        "hamilton"
+      ],
+      "contextDate": "2026-10-09",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "dateLabel": "Friday session discussion",
+      "verificationStatus": "Author, text and permalink verified",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "peurwh1",
+      "author": "EmergencyRace7158",
+      "text": "That Red Bull has been a missile in a straight line since Baku.",
+      "source": "Reddit · r/formula1",
+      "publishedAt": null,
+      "url": "https://www.reddit.com/r/formula1/comments/1x1mmp3/comment/peurwh1/",
+      "tags": [
+        "red_bull",
+        "max_verstappen"
+      ],
+      "contextDate": "2026-10-09",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "dateLabel": "Friday session discussion",
+      "verificationStatus": "Author, text and permalink verified",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "pethurk",
+      "author": "Key_Room2829",
+      "text": "I hope for once his car isn’t being held together by hopes and prayers 🙏",
+      "source": "Reddit · r/formula1",
+      "publishedAt": null,
+      "url": "https://www.reddit.com/r/formula1/comments/1x1gzpx/comment/pethurk/",
+      "tags": [
+        "norris",
+        "mclaren"
+      ],
+      "contextDate": "2026-10-09",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "dateLabel": "Friday session discussion",
+      "verificationStatus": "Author, text and permalink verified",
+      "sourcePublishedAt": null
+    },
+    {
+      "id": "petcwbx",
+      "author": "FrostyTill",
+      "text": "I guess Norris’s issues have been fixed?",
+      "source": "Reddit · r/formula1",
+      "publishedAt": null,
+      "url": "https://www.reddit.com/r/formula1/comments/1x1gzpx/comment/petcwbx/",
+      "tags": [
+        "norris",
+        "mclaren"
+      ],
+      "contextDate": "2026-10-09",
+      "verifiedAt": "2026-10-11T04:40:00Z",
+      "dateLabel": "Friday session discussion",
+      "verificationStatus": "Author, text and permalink verified",
+      "sourcePublishedAt": null
+    }
+  ],
+  "communityThreads": [
+    {
+      "title": "Singapore Sprint qualifying telemetry discussion",
+      "author": "u/jithu7",
+      "publishedAt": null,
+      "url": "https://www.reddit.com/r/formula1/comments/1x1mmp3/2026_singapore_grand_prix_sprint_quali_telemetry/",
+      "tags": [
+        "max_verstappen",
+        "russell",
+        "ferrari",
+        "red_bull",
+        "mercedes"
+      ],
+      "contextDate": "2026-10-09",
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    },
+    {
+      "title": "McLaren fans discuss the Singapore practice session",
+      "author": "u/NickProko",
+      "publishedAt": null,
+      "url": "https://www.reddit.com/r/formula1/comments/1x1gzpx/mclaren_f1_practice_in_singapore_wrapped_up/",
+      "tags": [
+        "mclaren",
+        "norris",
+        "piastri"
+      ],
+      "contextDate": "2026-10-09",
+      "verifiedAt": "2026-10-11T04:40:00Z"
+    }
+  ],
+  "results": [
+    {
+      "driverId": "max_verstappen",
+      "position": 1,
+      "time": "1:42:00.785",
+      "laps": 62,
+      "points": 25,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "leclerc",
+      "position": 2,
+      "time": "+7.335s",
+      "laps": 62,
+      "points": 18,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "antonelli",
+      "position": 3,
+      "time": "+24.573s",
+      "laps": 62,
+      "points": 15,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "norris",
+      "position": 4,
+      "time": "+40.506s",
+      "laps": 62,
+      "points": 12,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "piastri",
+      "position": 5,
+      "time": "+49.644s",
+      "laps": 62,
+      "points": 10,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "hamilton",
+      "position": 6,
+      "time": "+53.188s",
+      "laps": 62,
+      "points": 8,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "lawson",
+      "position": 7,
+      "time": "+81.666s",
+      "laps": 62,
+      "points": 6,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "hulkenberg",
+      "position": 8,
+      "time": "+83.386s",
+      "laps": 62,
+      "points": 4,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "russell",
+      "position": 9,
+      "time": "+84.677s",
+      "laps": 62,
+      "points": 2,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "hadjar",
+      "position": 10,
+      "time": "+90.862s",
+      "laps": 62,
+      "points": 1,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "gasly",
+      "position": 11,
+      "time": "+1 lap",
+      "laps": 61,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "bearman",
+      "position": 12,
+      "time": "+1 lap",
+      "laps": 61,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "ocon",
+      "position": 13,
+      "time": "+1 lap",
+      "laps": 61,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "sainz",
+      "position": 14,
+      "time": "+1 lap",
+      "laps": 61,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "arvid_lindblad",
+      "position": 15,
+      "time": "+1 lap",
+      "laps": 61,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "alonso",
+      "position": 16,
+      "time": "+1 lap",
+      "laps": 61,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "perez",
+      "position": 17,
+      "time": "+2 laps",
+      "laps": 60,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "albon",
+      "position": 18,
+      "time": "DNF",
+      "laps": 59,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "bottas",
+      "position": 19,
+      "time": "+3 laps",
+      "laps": 59,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "stroll",
+      "position": "NC",
+      "time": "DNF",
+      "laps": 36,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "colapinto",
+      "position": "NC",
+      "time": "DNF",
+      "laps": 29,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    },
+    {
+      "driverId": "bortoleto",
+      "position": "NC",
+      "time": "DNF",
+      "laps": 7,
+      "points": 0,
+      "sourceUrl": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result"
+    }
+  ],
+  "lastRace": {
+    "name": "Singapore Grand Prix",
+    "date": "2026-10-11",
+    "round": 17,
+    "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+    "sessionType": "Grand Prix",
+    "verifiedAt": "2026-10-12T04:24:00Z"
+  },
+  "formerDrivers": [
+    {
+      "id": "tsunoda",
+      "name": "Yuki Tsunoda",
+      "code": "TSU",
+      "nationality": "Japanese",
+      "flag": "🇯🇵",
+      "teamId": "rb",
+      "currentGrid": false,
+      "bio": "Classified 20th in the 2026 Drivers’ Championship with one point; not listed on the current 22-driver roster.",
+      "sourceUrl": "https://www.formula1.com/en/results/2026/drivers"
+    }
+  ],
+  "latestSession": {
+    "name": "Singapore Grand Prix",
+    "date": "2026-10-11",
+    "round": 17,
+    "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+    "sessionType": "Grand Prix",
+    "verifiedAt": "2026-10-12T04:24:00Z"
+  },
+  "latestPointsSession": {
+    "name": "Singapore Grand Prix",
+    "date": "2026-10-11",
+    "round": 17,
+    "url": "https://www.formula1.com/en/results/2026/races/1296/singapore/race-result",
+    "sessionType": "Grand Prix",
+    "verifiedAt": "2026-10-12T04:24:00Z"
+  },
+  "currentWeekend": {
+    "round": 17,
+    "name": "Singapore Grand Prix",
+    "circuit": "Marina Bay Street Circuit",
+    "country": "Singapore",
+    "raceStart": "2026-10-11T12:00:00Z",
+    "status": "Completed Grand Prix",
+    "latestCompletedSession": "Grand Prix",
+    "latestPointsSession": "Grand Prix",
+    "sourceUrl": "https://www.formula1.com/en/racing/2026/singapore",
+    "verifiedAt": "2026-10-12T04:24:00Z",
+    "sessions": [
+      {
+        "type": "Practice 1",
+        "date": "2026-10-09",
+        "time": "08:30:00Z",
+        "status": "completed"
+      },
+      {
+        "type": "Sprint Qualifying",
+        "date": "2026-10-09",
+        "time": "12:30:00Z",
+        "status": "completed"
+      },
+      {
+        "type": "Sprint",
+        "date": "2026-10-10",
+        "time": "09:00:00Z",
+        "status": "completed",
+        "note": "Scheduled start; rain delayed actual start."
+      },
+      {
+        "type": "Qualifying",
+        "date": "2026-10-10",
+        "time": "13:30:00Z",
+        "status": "completed"
+      },
+      {
+        "type": "Race",
+        "date": "2026-10-11",
+        "time": "12:00:00Z",
+        "status": "completed"
+      }
+    ]
+  },
+  "sprintResults": [
+    {
+      "driverId": "max_verstappen",
+      "position": 1,
+      "time": "39:48.162",
+      "points": 8,
+      "laps": 20
+    },
+    {
+      "driverId": "hamilton",
+      "position": 2,
+      "time": "+2.591s",
+      "points": 7,
+      "laps": 20
+    },
+    {
+      "driverId": "leclerc",
+      "position": 3,
+      "time": "+16.871s",
+      "points": 6,
+      "laps": 20
+    },
+    {
+      "driverId": "antonelli",
+      "position": 4,
+      "time": "+17.238s",
+      "points": 5,
+      "laps": 20
+    },
+    {
+      "driverId": "lawson",
+      "position": 5,
+      "time": "+20.632s",
+      "points": 4,
+      "laps": 20
+    },
+    {
+      "driverId": "bearman",
+      "position": 6,
+      "time": "+24.321s",
+      "points": 3,
+      "laps": 20
+    },
+    {
+      "driverId": "hulkenberg",
+      "position": 7,
+      "time": "+27.525s",
+      "points": 2,
+      "laps": 20
+    },
+    {
+      "driverId": "norris",
+      "position": 8,
+      "time": "+28.272s",
+      "points": 1,
+      "laps": 20
+    },
+    {
+      "driverId": "gasly",
+      "position": 9,
+      "time": "+36.220s",
+      "points": 0,
+      "laps": 20
+    },
+    {
+      "driverId": "ocon",
+      "position": 10,
+      "time": "+37.640s",
+      "points": 0,
+      "laps": 20
+    },
+    {
+      "driverId": "alonso",
+      "position": 11,
+      "time": "+50.464s",
+      "points": 0,
+      "laps": 20
+    },
+    {
+      "driverId": "sainz",
+      "position": 12,
+      "time": "+52.467s",
+      "points": 0,
+      "laps": 20
+    },
+    {
+      "driverId": "arvid_lindblad",
+      "position": 13,
+      "time": "+55.792s",
+      "points": 0,
+      "laps": 20
+    },
+    {
+      "driverId": "piastri",
+      "position": 14,
+      "time": "DNF",
+      "points": 0,
+      "laps": 19
+    },
+    {
+      "driverId": "albon",
+      "position": "NC",
+      "time": "DNF",
+      "points": 0,
+      "laps": 14
+    },
+    {
+      "driverId": "bortoleto",
+      "position": "NC",
+      "time": "DNF",
+      "points": 0,
+      "laps": 6
+    },
+    {
+      "driverId": "bottas",
+      "position": "NC",
+      "time": "DNF",
+      "points": 0,
+      "laps": 6
+    },
+    {
+      "driverId": "hadjar",
+      "position": "NC",
+      "time": "DNF",
+      "points": 0,
+      "laps": 2
+    },
+    {
+      "driverId": "colapinto",
+      "position": "NC",
+      "time": "DNF",
+      "points": 0,
+      "laps": 2
+    },
+    {
+      "driverId": "russell",
+      "position": "NC",
+      "time": "DNF",
+      "points": 0,
+      "laps": 1
+    },
+    {
+      "driverId": "perez",
+      "position": "NC",
+      "time": "DNF",
+      "points": 0,
+      "laps": 1
+    },
+    {
+      "driverId": "stroll",
+      "position": "NC",
+      "time": "DNF",
+      "points": 0,
+      "laps": 0
+    }
+  ],
+  "qualifyingResults": [
+    {
+      "driverId": "max_verstappen",
+      "position": 1,
+      "q1": "1:33.241",
+      "q2": "1:31.639",
+      "q3": "1:31.373",
+      "note": null
+    },
+    {
+      "driverId": "leclerc",
+      "position": 2,
+      "q1": "1:32.774",
+      "q2": "1:31.953",
+      "q3": "1:31.427",
+      "note": null
+    },
+    {
+      "driverId": "hamilton",
+      "position": 3,
+      "q1": "1:32.429",
+      "q2": "1:31.529",
+      "q3": "1:31.496",
+      "note": null
+    },
+    {
+      "driverId": "antonelli",
+      "position": 4,
+      "q1": "1:33.601",
+      "q2": "1:32.079",
+      "q3": "1:31.562",
+      "note": null
+    },
+    {
+      "driverId": "norris",
+      "position": 5,
+      "q1": "1:32.775",
+      "q2": "1:31.895",
+      "q3": "1:31.712",
+      "note": null
+    },
+    {
+      "driverId": "russell",
+      "position": 6,
+      "q1": "1:33.617",
+      "q2": "1:32.212",
+      "q3": "1:31.747",
+      "note": "Qualifying position; engine penalty affects starting grid."
+    },
+    {
+      "driverId": "piastri",
+      "position": 7,
+      "q1": "1:33.076",
+      "q2": "1:32.245",
+      "q3": "1:31.860",
+      "note": null
+    },
+    {
+      "driverId": "gasly",
+      "position": 8,
+      "q1": "1:33.182",
+      "q2": "1:32.602",
+      "q3": "1:32.225",
+      "note": null
+    },
+    {
+      "driverId": "lawson",
+      "position": 9,
+      "q1": "1:32.885",
+      "q2": "1:32.319",
+      "q3": "1:32.369",
+      "note": null
+    },
+    {
+      "driverId": "arvid_lindblad",
+      "position": 10,
+      "q1": "1:33.288",
+      "q2": "1:32.498",
+      "q3": "1:32.781",
+      "note": null
+    },
+    {
+      "driverId": "hulkenberg",
+      "position": 11,
+      "q1": "1:33.147",
+      "q2": "1:32.784",
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "bearman",
+      "position": 12,
+      "q1": "1:33.356",
+      "q2": "1:32.908",
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "ocon",
+      "position": 13,
+      "q1": "1:33.803",
+      "q2": "1:33.323",
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "sainz",
+      "position": 14,
+      "q1": "1:33.774",
+      "q2": "1:33.526",
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "bortoleto",
+      "position": 15,
+      "q1": "1:34.169",
+      "q2": "1:33.658",
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "colapinto",
+      "position": 16,
+      "q1": "1:33.261",
+      "q2": "1:33.787",
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "alonso",
+      "position": 17,
+      "q1": "1:34.223",
+      "q2": null,
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "albon",
+      "position": 18,
+      "q1": "1:34.289",
+      "q2": null,
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "stroll",
+      "position": 19,
+      "q1": "1:34.946",
+      "q2": null,
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "perez",
+      "position": 20,
+      "q1": "1:35.123",
+      "q2": null,
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "bottas",
+      "position": 21,
+      "q1": "1:35.984",
+      "q2": null,
+      "q3": null,
+      "note": null
+    },
+    {
+      "driverId": "hadjar",
+      "position": "RT",
+      "q1": null,
+      "q2": null,
+      "q3": null,
+      "note": null
+    }
+  ]
+}

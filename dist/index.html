@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#181d29"><meta name="description" content="Pixel Paddock. A playable pixel-art Formula 1 companion: the grid, garages, timing screens and paddock radio.">
+<title>Pixel Paddock · Grand Prix '26</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to race control</a>
+<div class="cabinet">
+<header class="site-header">
+<a class="brand" href="#/" aria-label="Pixel Paddock home"><svg viewBox="0 0 44 36" aria-hidden="true"><path fill="#fb6747" d="M4 4h32v5H15v5h17v5H15v13H4z"/><path fill="#f3d77a" d="M39 4h5v5h-5zM35 14h5v5h-5zM19 24h14v5H19z"/></svg><span>PIXEL<span class="brand-second">PADDOCK</span></span></a>
+<div class="header-meta"><span class="cartridge">GRAND PRIX '26</span><span class="header-tagline">REAL RACING. EXTRA PIXELS.</span></div>
+<div class="header-actions"><button id="motion-toggle" class="utility-button" aria-pressed="true" title="Toggle character motion">FX ON</button><a class="utility-button saved-link" href="#/favorites" aria-label="Saved drivers and teams">♡ <span id="favorite-count">0</span></a><button id="menu-toggle" class="utility-button mobile-only" aria-controls="main-nav" aria-expanded="false">MENU</button></div>
+</header>
+<nav class="main-nav" id="main-nav" aria-label="Main navigation"><a href="#/" data-nav="dashboard"><span>01</span> RACE CONTROL</a><a href="#/drivers" data-nav="drivers"><span>02</span> THE GRID</a><a href="#/teams" data-nav="teams"><span>03</span> GARAGES</a><a href="#/principals" data-nav="principals"><span>04</span> PIT WALL</a><a href="#/races" data-nav="races"><span>05</span> RACE CALENDAR</a><a href="#/paddock" data-nav="paddock"><span>06</span> PADDOCK</a></nav>
+<div class="status-strip"><span><i class="status-dot"></i> <span id="snapshot-label">LOADING CARTRIDGE</span></span><a href="#/sources">DATA & SOURCES ↗</a></div>
+<main id="main" tabindex="-1"><div class="loading-screen"><div class="pixel-loader"></div><h1>LOADING THE PADDOCK</h1><p>Preparing your race cartridge…</p></div></main>
+<footer class="site-footer"><a class="footer-wordmark" href="#/">PIXEL PADDOCK <span>© 2026</span></a><p>Unofficial F1 fan project. Original pixel illustrations.</p><div><a href="#/sources">Source log</a><a href="progress.html">Build log ↗</a><span class="footer-checks" aria-hidden="true"></span></div></footer>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="pixel-art.js"></script>
+<script src="artwork.js"></script>
+<script src="app.js"></script>
+</body></html>
